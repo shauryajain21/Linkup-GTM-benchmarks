@@ -98,6 +98,8 @@ judge on freshness + specificity + actionability.
 We took a subset of people who changed jobs **this month** and asked each engine for
 their current employer — does it report the **new** company or the **stale** old one?
 
+> *Note: a small share of these are internal moves — a new role at the same company — not just company-to-company changes.*
+
 | Engine     | Caught the move (fresh %) | Reported stale employer | Wrong person | No answer |
 | ---------- | ------------------------- | ----------------------- | ------------ | --------- |
 | **Linkup** | **74%**                   | 7                       | 4            | 4         |
