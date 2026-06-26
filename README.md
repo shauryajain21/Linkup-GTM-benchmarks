@@ -30,14 +30,14 @@ Two benchmarks, scored across all four engines. Higher is better unless noted.
 | -------------- | -------------------------------------------------------------------------------------- | -------- | ---- | ---------- | -------- |
 | **Enrichment** | Returned the **correct and complete information about a person** from LinkedIn (n=500) | **94%**  | 56%  | 64%        | 63%      |
 | **Richness**   | Real-time, current activity about a person from across the web, 0–100 (n=100)          | **64.8** | 55.8 | 53.1       | 59.8     |
-| **Freshness**  | Caught a **just-happened signal** (example tracked: job change) (n=57)                  | **74%**  | 14%  | 9%         | 11%      |
+| **Freshness**  | Caught a **just-happened signal** (example tracked: job change) (n=~50)                  | **74%**  | 14%  | 9%         | 11%      |
 
 ### Company
 
 | Signal               | What it measures                                            | Linkup    | Exa   | Perplexity | Parallel |
 | -------------------- | ---------------------------------------------------------- | --------- | ----- | ---------- | -------- |
 | **Answer quality**   | Share of retrieved sources **on-target** for the company (n=150) | **82.7%** | 77.7% | 75.2%      | 75.9%    |
-| **Funding accuracy** | Total funding within **±25%** of Crunchbase (n=93)         | **82%**   | 71%   | 60%        | 74%      |
+| **Funding accuracy** | Total funding within **±25%** of Crunchbase (n=~90)         | **82%**   | 71%   | 60%        | 74%      |
 
 ---
 
@@ -92,7 +92,7 @@ judge on freshness + specificity + actionability.
 differentiator — surfacing a post from last week or a just-announced round preps a
 rep better than a 2019 job title.
 
-### Signal 3 — Freshness of people content *(job-change detection, n=57)*
+### Signal 3 — Freshness of people content *(job-change detection, n=~50)*
 
 We took a subset of people who changed jobs **this month** and asked each engine for
 their current employer — does it report the **new** company or the **stale** old one?
@@ -161,7 +161,7 @@ worst-case consistency are computed deterministically from the captured data.
 - **Outbound personalization** — pain → solution pairings and case studies a rep can
   drop straight into a sequence.
 
-### Signal 2 — Funding retrieval *(n=93)*
+### Signal 2 — Funding retrieval *(n=~90)*
 
 Given only a company's **name + HQ + founding year**, return total funding raised via
 each engine's structured output. Scored against Crunchbase total equity funding;

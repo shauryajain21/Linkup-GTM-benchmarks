@@ -111,7 +111,7 @@ chart("people_richness.png",
 
 chart("people_freshness.png",
       "Caught a just-happened job change",
-      "People who changed jobs this month  ·  n=57  ·  % caught",
+      "People who changed jobs this month  ·  n=~50  ·  % caught",
       [("Linkup", 74), ("Exa", 14), ("Parallel", 11), ("Perplexity", 9)],
       suffix="%")
 
@@ -124,6 +124,6 @@ chart("company_research.png",
 
 chart("company_funding.png",
       "Funding within \u00b125% of Crunchbase",
-      "Total funding from name + HQ + year  ·  n=93  ·  % within band",
+      "Total funding from name + HQ + year  ·  n=~90  ·  % within band",
       [("Linkup", 82), ("Parallel", 74), ("Exa", 71), ("Perplexity", 60)],
       suffix="%")
