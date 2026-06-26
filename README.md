@@ -36,7 +36,7 @@ Two benchmarks, scored across all four engines. Higher is better unless noted.
 
 | Signal               | What it measures                                            | Linkup    | Exa   | Perplexity | Parallel |
 | -------------------- | ---------------------------------------------------------- | --------- | ----- | ---------- | -------- |
-| **Answer quality**   | Share of retrieved sources **on-target** for the company (n=150) | **82.7%** | 77.7% | 75.2%      | 75.9%    |
+| **Answer quality**   | Share of retrieved sources **on-target** for the company (n=750) | **82.7%** | 77.7% | 75.2%      | 75.9%    |
 | **Funding accuracy** | Total funding within **±25%** of Crunchbase (n=~90)         | **82%**   | 71%   | 60%        | 74%      |
 
 ---
@@ -120,7 +120,7 @@ their current employer — does it report the **new** company or the **stale** o
 Firmographics and research that drive account scoring, prioritization, and outbound.
 Two signals are live; more are in progress.
 
-### Signal 1 — B2B company research *(n=150, 5 sections)*
+### Signal 1 — B2B company research *(n=750 — 150 companies × 5 sections)*
 
 For 150 real companies, each engine runs five sections of GTM research. The method
 is held identical across engines so the result reflects *retrieval*, not the writer:
@@ -216,7 +216,7 @@ Linkup-GTM-benchmarks/
 ├── README.md                    # this file — the single combined narrative
 ├── people/                      # LinkedIn profile extraction — 3 signals (n=500)
 └── company/
-    ├── research-150/            # B2B company research — 5 sections (n=150)
+    ├── research-150/            # B2B company research — 150 companies × 5 sections (n=750)
     └── research-evals/          # funding retrieval (+ future company evals)
 ```
 
