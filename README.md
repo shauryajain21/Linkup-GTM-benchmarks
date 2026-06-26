@@ -88,9 +88,10 @@ judge on freshness + specificity + actionability.
 
 ![Pre-meeting brief quality, by engine](assets/people_richness.png)
 
-**Where this matters in GTM:** account research before a call. Freshness is the
-differentiator — surfacing a post from last week or a just-announced round preps a
-rep better than a 2019 job title.
+**Where this matters in GTM:**
+
+- **Account research before a call** — a rep needs a brief, not a raw field dump.
+- **Freshness is the differentiator** — a post from last week or a just-announced round preps a rep better than a 2019 job title.
 
 ### Signal 3 — Freshness of people content *(job-change detection, n=~50)*
 
