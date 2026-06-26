@@ -68,7 +68,7 @@ We join each response to `data/ground_truth_500.csv` (the authoritative profile 
 - **wrong (namesake)** — confidently returned a company that **isn't** the real person's
 - **empty** — abstained / no company returned
 
-Matching is token-set with company-suffix stripping (e.g. `Capital Bancorp Plc` ≈ `Capital Bancorp`). Ground truth is an **independent** DB — not derived from any of the four APIs — so there's no self-reference bias.
+Matching is token-set with company-suffix stripping (e.g. `Capital Bancorp Plc` ≈ `Capital Bancorp`). Ground truth is an **independent** DB — not derived from any of the four APIs.
 
 ---
 
