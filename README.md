@@ -106,9 +106,11 @@ their current employer — does it report the **new** company or the **stale** o
 
 ![Caught a just-happened job change, by engine](assets/people_freshness.png)
 
-**Where this matters in GTM:** job-change signals are among the highest-value sales
-triggers — a champion who just moved may buy again — but only if they're fresh. The
-common failure mode is *stale*: the right person, reported at their previous company.
+**Where this matters in GTM:**
+
+- **Highest-value trigger** — a champion who just moved may buy again, but only if the signal is fresh.
+- **The failure mode is *stale*** — the right person, reported at their previous company.
+- **Judged, not string-matched** — an Opus-4.8 model classifies across languages and abbreviations.
 
 ---
 
