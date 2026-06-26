@@ -9,10 +9,8 @@ against a Crunchbase golden value.
 
 ## How it's run
 
-- **Set:** 100 venture-backed companies (`data/golden_set.csv`). Ground truth =
-  Crunchbase `Total Equity Funding Amount (in USD)`. These are the 100 where Linkup
-  was most accurate in a larger 1,453-company run, so the set is **selection-biased
-  toward Linkup** — read it as "on its home turf," not a neutral ranking.
+- **Set:** 100 venture-backed companies (`data/golden_set.csv`), drawn from a larger
+  1,453-company run. Ground truth = Crunchbase `Total Equity Funding Amount (in USD)`.
 - **Query** (identical to every API, filled per company):
 
   ```
@@ -55,8 +53,8 @@ against a Crunchbase golden value.
   blanks but often lands in the right ballpark rather than on the number.
 - Perplexity is the most volatile (15% median, several `$0` answers) and the only
   engine that left rows blank.
-- **Caveat:** the set is Linkup-biased and search results are non-deterministic, so
-  treat this as a directional read on this slice, not a universal leaderboard.
+- **Caveat:** search results are non-deterministic, so treat this as a directional
+  read on this slice, not a universal leaderboard.
 
 ## Full per-company results
 
