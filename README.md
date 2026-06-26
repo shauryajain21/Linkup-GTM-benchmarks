@@ -34,10 +34,10 @@ Two benchmarks, scored across all four engines. Higher is better unless noted.
 
 ### Company
 
-| Signal               | What it measures                                   | Linkup   | Exa  | Perplexity | Parallel |
-| -------------------- | -------------------------------------------------- | -------- | ---- | ---------- | -------- |
-| **Research depth**   | **Actionable signals** found per company (n=150)   | **71.8** | 71.2 | 49.6       | 46.4     |
-| **Funding accuracy** | Total funding within **±25%** of Crunchbase (n=93) | **82%**  | 71%  | 60%        | 74%      |
+| Signal               | What it measures                                            | Linkup    | Exa   | Perplexity | Parallel |
+| -------------------- | ---------------------------------------------------------- | --------- | ----- | ---------- | -------- |
+| **Answer quality**   | Share of retrieved sources **on-target** for the company (n=150) | **82.7%** | 77.7% | 75.2%      | 75.9%    |
+| **Funding accuracy** | Total funding within **±25%** of Crunchbase (n=93)         | **82%**   | 71%   | 60%        | 74%      |
 
 ---
 
@@ -140,14 +140,14 @@ The five sections — what each set of queries goes after, and why it's GTM sign
 | **Customers**       | *customer / client / "trusted by" / partnership*          | named logos and partners for account mapping              |
 | **CTAs**            | site-scoped *book a demo / pricing / sign up*             | the buying motion and conversion signals                  |
 
-| Engine     | Actionable signals / co. | Repeated | On-target sources | Answered the ask | Right company | Worst-case (P10) |
-| ---------- | ------------------------ | -------- | ----------------- | ---------------- | ------------- | ---------------- |
+| Engine     | Actionable signals / co. | Repeated | Answer quality (on-target) | Answered the ask | Right company | Worst-case (P10) |
+| ---------- | ------------------------ | -------- | -------------------------- | ---------------- | ------------- | ---------------- |
 | **Linkup** | **71.8**                 | 11%      | **82.7%**         | **79.5%**        | **85%**       | **59.1**         |
 | Exa        | 71.2                     | 17%      | 77.7%             | 73.0%            | 80%           | 56.1             |
 | Parallel   | 46.4                     | 13%      | 75.9%             | 70.6%            | 78%           | 55.8             |
 | Perplexity | 49.6                     | 3%       | 75.2%             | 69.6%            | 78%           | 51.9             |
 
-![Actionable signals found per company, by engine](assets/company_research.png)
+![Answer quality (on-target sources), by engine](assets/company_research.png)
 
 Only relevance and identification use the judge; quantity, dedup, source-mix, and
 worst-case consistency are computed deterministically from the captured data.

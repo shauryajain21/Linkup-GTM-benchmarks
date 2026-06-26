@@ -117,10 +117,10 @@ chart("people_freshness.png",
 
 # ---- Company --------------------------------------------------------------
 chart("company_research.png",
-      "Actionable signals found per company",
-      "B2B research across 5 GTM sections  ·  n=150  ·  distinct signals",
-      [("Linkup", 71.8), ("Exa", 71.2), ("Perplexity", 49.6), ("Parallel", 46.4)],
-      decimals=1)
+      "Answer quality",
+      "Share of retrieved sources on-target for the company  ·  n=150  ·  %",
+      [("Linkup", 82.7), ("Exa", 77.7), ("Parallel", 75.9), ("Perplexity", 75.2)],
+      suffix="%", decimals=1)
 
 chart("company_funding.png",
       "Funding within \u00b125% of Crunchbase",
