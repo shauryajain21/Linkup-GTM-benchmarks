@@ -140,7 +140,7 @@ overall = freshness*0.35 + specificity*0.30 + actionability*0.35     (capped at 
 
 ### What it means
 - **Freshness is the differentiator** — Linkup 58.6 vs ~43–46. It surfaces recent-activity hooks (posts referenced in 91/100 briefs) the others miss, and that's what makes a brief usable *today*.
-- **Linkup is the best brief for 51/100 people** (Parallel 26). It's honest, not lopsided: Parallel still narrowly edges raw **specificity** (verbose static detail), and Perplexity is most reliable on **right-person** (95%).
+- **Linkup is the best brief for 51/100 people** (Parallel 26).
 - An earlier, recency-blind rubric called this a Parallel tie — because it rewarded *volume* and treated a 2019 job date as worth the same as a post from last week. Weighting what a salesperson actually needs (recent + specific + tailored) puts Linkup on top.
 
 **Note:** briefs are **model-generated** and intentionally include the engines' mistakes (namesakes, stale or speculative claims) — surfacing those is exactly what the judge measures.
