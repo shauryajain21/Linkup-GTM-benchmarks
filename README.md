@@ -172,15 +172,12 @@ each engine's structured output. Scored against Crunchbase total equity funding;
 
 ![Funding within ±25% of Crunchbase, by engine](assets/company_funding.png)
 
-Scored on the companies where Linkup returned a number, so all four engines are
-compared on identical rows.
+All four engines are scored on identical rows (the companies where Linkup returned a number).
 
 **Where this matters in GTM:**
 
-- **ICP fit & account scoring** — funding stage and total raised are core inputs to
-  qualification.
-- **Timing & prioritization** — recently funded accounts have budget; hitting the real
-  number (not just the ballpark) is what makes it usable in a scoring model.
+- **ICP fit & account scoring** — funding stage and total raised are core qualification inputs.
+- **Timing & prioritization** — recently funded accounts have budget; the real number (not the ballpark) is what makes it usable in a scoring model.
 
 ---
 
