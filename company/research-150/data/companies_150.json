@@ -223,18 +223,6 @@
     "crunchbase": "https://www.crunchbase.com/organization/bigger-games"
   },
   {
-    "name": "BioCirc",
-    "domain": "biocirc.dk",
-    "url": "http://www.biocirc.dk/",
-    "hq": "Copenhagen, Hovedstaden, Denmark",
-    "founded": "2021-01-01",
-    "funding_status": null,
-    "total_funding_usd": 44413256,
-    "last_round": "Undisclosed",
-    "investors": null,
-    "crunchbase": "https://www.crunchbase.com/organization/biocirc"
-  },
-  {
     "name": "Blockbrain",
     "domain": "blockbrain.ai",
     "url": "https://blockbrain.ai/",
@@ -377,22 +365,6 @@
     "crunchbase": "https://www.crunchbase.com/organization/onco3r-therapeutics"
   },
   {
-    "name": "DISCO Pharmaceuticals",
-    "domain": "discopharma.de",
-    "url": "https://discopharma.de/",
-    "hq": "Cologne, Nordrhein-Westfalen, Germany",
-    "founded": "2022-01-01",
-    "funding_status": "Seed",
-    "total_funding_usd": 64028311,
-    "last_round": "Seed",
-    "investors": [
-      "Ackermans & van Haaren",
-      "NRW.BANK",
-      "Sofinnova Partners"
-    ],
-    "crunchbase": "https://www.crunchbase.com/organization/disco-pharmaceuticals"
-  },
-  {
     "name": "Deblock",
     "domain": "deblock.com",
     "url": "https://deblock.com",
@@ -456,7 +428,7 @@
     "funding_status": null,
     "total_funding_usd": null,
     "last_round": null,
-    "investors": null,
+    "investors": [],
     "crunchbase": "https://www.crunchbase.com/organization/dentacore"
   },
   {
@@ -484,7 +456,7 @@
     "funding_status": null,
     "total_funding_usd": 127037631,
     "last_round": "Venture - Series Unknown",
-    "investors": null,
+    "investors": [],
     "crunchbase": "https://www.crunchbase.com/organization/elyse-energy"
   },
   {
@@ -964,7 +936,7 @@
     "funding_status": "Early Stage Venture",
     "total_funding_usd": 17318947,
     "last_round": "Series A",
-    "investors": null,
+    "investors": [],
     "crunchbase": "https://www.crunchbase.com/organization/jaaq"
   },
   {
@@ -1254,6 +1226,18 @@
     "crunchbase": "https://www.crunchbase.com/organization/meelo"
   },
   {
+    "name": "Melvan",
+    "domain": "melvan.eu",
+    "url": "https://melvan.eu/",
+    "hq": "Avignon, Provence-Alpes-Cote d'Azur, France",
+    "founded": "2019-01-01",
+    "funding_status": null,
+    "total_funding_usd": 29208542,
+    "last_round": "Venture - Series Unknown",
+    "investors": [],
+    "crunchbase": "https://www.crunchbase.com/organization/melvan"
+  },
+  {
     "name": "Meridial",
     "domain": "meridial.org",
     "url": "https://meridial.org",
@@ -1339,7 +1323,7 @@
     "funding_status": "IPO",
     "total_funding_usd": 40000000,
     "last_round": "Post-IPO Equity",
-    "investors": null,
+    "investors": [],
     "crunchbase": "https://www.crunchbase.com/organization/nip-group"
   },
   {
@@ -1508,6 +1492,20 @@
       "Icecat Capital"
     ],
     "crunchbase": "https://www.crunchbase.com/organization/orange-quantum-systems"
+  },
+  {
+    "name": "PhotonHub Europe",
+    "domain": "photonhub.eu",
+    "url": "https://photonhub.eu/",
+    "hq": "Brussels, Brussels Hoofdstedelijk Gewest, Belgium",
+    "founded": "2021-01-01",
+    "funding_status": null,
+    "total_funding_usd": null,
+    "last_round": null,
+    "investors": [
+      "European Commission"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/photonhub-europe"
   },
   {
     "name": "Photoncycle",
@@ -1791,6 +1789,20 @@
     "crunchbase": "https://www.crunchbase.com/organization/hidden-road"
   },
   {
+    "name": "SPRK Capital",
+    "domain": "sprkcapital.co.uk",
+    "url": "https://www.sprkcapital.co.uk/",
+    "hq": "London, England, United Kingdom",
+    "founded": "2020-01-01",
+    "funding_status": null,
+    "total_funding_usd": 28883055,
+    "last_round": "Venture - Series Unknown",
+    "investors": [
+      "British Business Investments"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/sprk-capital"
+  },
+  {
     "name": "Satsuma Technology",
     "domain": "satsuma.digital",
     "url": "https://www.satsuma.digital/",
@@ -1941,21 +1953,6 @@
       "NatWest"
     ],
     "crunchbase": "https://www.crunchbase.com/organization/sovereign-network-group"
-  },
-  {
-    "name": "Spiko",
-    "domain": "spiko.io",
-    "url": "https://www.spiko.io/fr",
-    "hq": "Paris, Ile-de-France, France",
-    "founded": "2023-06-01",
-    "funding_status": "Early Stage Venture",
-    "total_funding_usd": 25784017,
-    "last_round": "Series A",
-    "investors": [
-      "Frst",
-      "Index Ventures"
-    ],
-    "crunchbase": "https://www.crunchbase.com/organization/spiko"
   },
   {
     "name": "Stacks",
@@ -2135,6 +2132,20 @@
       "NATO Innovation Fund"
     ],
     "crunchbase": "https://www.crunchbase.com/organization/tytan-technologies"
+  },
+  {
+    "name": "Universal Kraft Canada Renewables",
+    "domain": "universalkraft.com",
+    "url": "https://universalkraft.com/",
+    "hq": "Porto, Lisboa, Portugal",
+    "founded": "2022-01-01",
+    "funding_status": null,
+    "total_funding_usd": null,
+    "last_round": null,
+    "investors": [
+      "Crayhill Capital Management"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/universal-kraft-canada-renewables"
   },
   {
     "name": "Validation Cloud",
@@ -2369,22 +2380,6 @@
       "Venture Kick"
     ],
     "crunchbase": "https://www.crunchbase.com/organization/mimic-robotics"
-  },
-  {
-    "name": "nyra health",
-    "domain": "nyra.health",
-    "url": "https://www.nyra.health/en-us",
-    "hq": "Vienna, Wien, Austria",
-    "founded": "2020-06-04",
-    "funding_status": "Early Stage Venture",
-    "total_funding_usd": 28505742,
-    "last_round": "Series A",
-    "investors": [
-      "Armira",
-      "MassMutual Ventures",
-      "Wellington Partners"
-    ],
-    "crunchbase": "https://www.crunchbase.com/organization/myreha"
   },
   {
     "name": "voize",

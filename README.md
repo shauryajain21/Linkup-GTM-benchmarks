@@ -36,7 +36,7 @@ Two benchmarks, scored across all four engines. Higher is better unless noted.
 
 | Signal               | What it measures                                            | Linkup    | Exa   | Perplexity | Parallel |
 | -------------------- | ---------------------------------------------------------- | --------- | ----- | ---------- | -------- |
-| **Answer quality**   | Share of retrieved sources **on-target** for the company (n=750) | **82.7%** | 77.7% | 75.2%      | 75.9%    |
+| **Answer quality**   | Share of retrieved sources **on-target** for the company (n=750) | **82.7%** | 77.5% | 74.6%      | 75.6%    |
 | **Funding accuracy** | Total funding within **±25%** of Crunchbase (n=~90)         | **82%**   | 71%   | 60%        | 74%      |
 
 ---
@@ -143,10 +143,10 @@ The five sections — what each set of queries goes after, and why it's GTM sign
 
 | Engine     | Actionable signals / co. | Repeated | Answer quality (on-target) | Answered the ask | Right company | Worst-case (P10) |
 | ---------- | ------------------------ | -------- | -------------------------- | ---------------- | ------------- | ---------------- |
-| **Linkup** | **71.8**                 | 11%      | **82.7%**         | **79.5%**        | **85%**       | **59.1**         |
-| Exa        | 71.2                     | 17%      | 77.7%             | 73.0%            | 80%           | 56.1             |
-| Parallel   | 46.4                     | 13%      | 75.9%             | 70.6%            | 78%           | 55.8             |
-| Perplexity | 49.6                     | 3%       | 75.2%             | 69.6%            | 78%           | 51.9             |
+| **Linkup** | **71.8**                 | 11%      | **82.7%**         | **79.6%**        | **85%**       | **59.1**         |
+| Exa        | 71.1                     | 18%      | 77.5%             | 72.9%            | 80%           | 56.1             |
+| Parallel   | 46.4                     | 13%      | 75.6%             | 70.2%            | 78%           | 55.8             |
+| Perplexity | 49.4                     | 3%       | 74.6%             | 69.1%            | 78%           | 51.0             |
 
 ![Answer quality (on-target sources), by engine](assets/company_research.png)
 
