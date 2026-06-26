@@ -6,12 +6,17 @@ muted. No gridlines, no spines, no legend — just sorted bars with value labels
 Run: python3 assets/make_charts.py  ->  assets/*.png
 """
 import os
+import numpy as np
+from PIL import Image
 import matplotlib
 
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
+from matplotlib.offsetbox import OffsetImage, AnnotationBbox
+from matplotlib.transforms import blended_transform_factory
 
 OUT = os.path.dirname(os.path.abspath(__file__))
+LOGODIR = os.path.join(OUT, "logos")
 
 LINKUP = "#2F6BFF"   # highlight
 MUTED = "#D7DBE2"    # everyone else
@@ -24,6 +29,23 @@ plt.rcParams.update({
     "figure.dpi": 200,
     "savefig.dpi": 200,
 })
+
+_LOGO_CACHE = {}
+
+
+def logo(name, px=96):
+    """Load an engine logo, pad to a transparent square, resize to px×px."""
+    key = (name.lower(), px)
+    if key in _LOGO_CACHE:
+        return _LOGO_CACHE[key]
+    img = Image.open(os.path.join(LOGODIR, f"{name.lower()}.png")).convert("RGBA")
+    side = max(img.size)
+    sq = Image.new("RGBA", (side, side), (0, 0, 0, 0))
+    sq.paste(img, ((side - img.width) // 2, (side - img.height) // 2))
+    sq = sq.resize((px, px), Image.LANCZOS)
+    arr = np.asarray(sq).astype(float) / 255.0
+    _LOGO_CACHE[key] = arr
+    return arr
 
 
 def chart(fname, title, subtitle, data, suffix="", decimals=0):
@@ -45,12 +67,16 @@ def chart(fname, title, subtitle, data, suffix="", decimals=0):
                 fontsize=11, fontweight="bold" if l.lower() == "linkup" else "normal",
                 color=INK if l.lower() == "linkup" else SUBTLE)
 
-    ax.set_yticks(list(y))
-    ax.set_yticklabels(labels, fontsize=11,
-                       color=INK)
-    for tick, l in zip(ax.get_yticklabels(), labels):
-        if l.lower() == "linkup":
-            tick.set_fontweight("bold")
+    ax.set_yticks([])
+    blend = blended_transform_factory(ax.transAxes, ax.transData)
+    for i, l in enumerate(labels):
+        ab = AnnotationBbox(OffsetImage(logo(l), zoom=0.30), (-0.30, i),
+                            xycoords=blend, frameon=False, box_alignment=(0, 0.5),
+                            clip_on=False)
+        ax.add_artist(ab)
+        ax.text(-0.175, i, l, transform=blend, va="center", ha="left",
+                fontsize=11, color=INK,
+                fontweight="bold" if l.lower() == "linkup" else "normal")
 
     ax.set_xlim(0, vmax * 1.18)
     ax.set_xticks([])
@@ -58,12 +84,12 @@ def chart(fname, title, subtitle, data, suffix="", decimals=0):
         s.set_visible(False)
     ax.tick_params(length=0)
 
-    ax.text(0, 1.30, title, transform=ax.transAxes, fontsize=13.5,
+    ax.text(-0.34, 1.30, title, transform=ax.transAxes, fontsize=13.5,
             fontweight="bold", color=INK, ha="left", va="bottom")
-    ax.text(0, 1.10, subtitle, transform=ax.transAxes, fontsize=10,
+    ax.text(-0.34, 1.10, subtitle, transform=ax.transAxes, fontsize=10,
             color=SUBTLE, ha="left", va="bottom")
 
-    fig.subplots_adjust(top=0.74, left=0.16, right=0.97, bottom=0.06)
+    fig.subplots_adjust(top=0.74, left=0.34, right=0.97, bottom=0.06)
     path = os.path.join(OUT, fname)
     fig.savefig(path, bbox_inches="tight", facecolor="white")
     plt.close(fig)
