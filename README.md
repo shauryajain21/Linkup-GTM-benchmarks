@@ -125,13 +125,9 @@ Two signals are live; more are in progress.
 For 150 real companies, each engine runs five sections of GTM research. The method
 is held identical across engines so the result reflects *retrieval*, not the writer:
 
-1. **Agentic retrieval** — for each section the engine runs the section's searches
-   (and scrapes the company page where supported) and returns **raw sources**.
-2. **Shared synthesis** (`claude-sonnet-4-6`) — the same prompt turns each engine's
-   raw results into a structured list, grounded *only* in what that engine returned.
-3. **Judge** (`claude-opus-4-8`) — scores each section against the company's
-   **verified identity** (domain, HQ, founded, funding, investors) for right-company,
-   on-target sources, and whether it answered the ask.
+1. **Retrieve** — each engine runs the section's searches (and scrapes the company page where supported), returning **raw sources only**.
+2. **Synthesize** (`claude-sonnet-4-6`) — one shared prompt structures each engine's results, grounded *only* in what it returned.
+3. **Judge** (`claude-opus-4-8`) — scores each section against the company's **verified identity** for right-company, on-target sources, and answering the ask.
 
 The five sections — what each set of queries goes after, and why it's GTM signal:
 
