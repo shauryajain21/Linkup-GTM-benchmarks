@@ -1,0 +1,2406 @@
+[
+  {
+    "name": "011h",
+    "domain": "011h.com",
+    "url": "https://www.011h.com/",
+    "hq": "Barcelona, Catalonia, Spain",
+    "founded": "2020-01-01",
+    "funding_status": null,
+    "total_funding_usd": 67455516,
+    "last_round": "Venture - Series Unknown",
+    "investors": [
+      "Foundamental",
+      "noa",
+      "redalpine",
+      "Ship2B Ventures"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/011h"
+  },
+  {
+    "name": "AAVantgarde Bio",
+    "domain": "aavantgardebio.com",
+    "url": "https://www.aavantgardebio.com/en/homepage/",
+    "hq": "Milano, Lombardia, Italy",
+    "founded": "2021-01-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 206254600,
+    "last_round": "Series B",
+    "investors": [
+      "Atlas Venture",
+      "Forbion Capital Partners",
+      "Schroders Capital",
+      "Sofinnova Partners"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/aavantgarde-bio"
+  },
+  {
+    "name": "ARTHEx Biotech",
+    "domain": "arthexbiotech.com",
+    "url": "http://arthexbiotech.com/",
+    "hq": "Valencia, Comunidad Valenciana, Spain",
+    "founded": "2019-01-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 106540186,
+    "last_round": "Series B",
+    "investors": [
+      "AdBio partners",
+      "Bpifrance",
+      "Centre for the Development of Industrial Technology (CDTI)",
+      "Columbus Venture Partners",
+      "European Innovation Council",
+      "Invivo Capital Partners"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/arthex-biotech"
+  },
+  {
+    "name": "ASTEO Red Neutra",
+    "domain": "asteo.es",
+    "url": "https://asteo.es",
+    "hq": "Alcobendas, Madrid, Spain",
+    "founded": "2021-01-01",
+    "funding_status": null,
+    "total_funding_usd": null,
+    "last_round": null,
+    "investors": [
+      "Allianz Global Investors"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/asteo-red-neutra"
+  },
+  {
+    "name": "Adcytherix",
+    "domain": "adcytherix.com",
+    "url": "https://adcytherix.com",
+    "hq": "Marseille, Provence-Alpes-Cote d'Azur, France",
+    "founded": "2023-01-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 155065002,
+    "last_round": "Series A",
+    "investors": [
+      "Andera Partners",
+      "Angelini Ventures",
+      "Bpifrance",
+      "Kurma Partners",
+      "Pontifax"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/adcytherix"
+  },
+  {
+    "name": "Adfin",
+    "domain": "adfin.com",
+    "url": "https://adfin.com/",
+    "hq": "London, England, United Kingdom",
+    "founded": "2024-04-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 31226403,
+    "last_round": "Series A",
+    "investors": [
+      "Index Ventures",
+      "Visionaries Club"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/adfin"
+  },
+  {
+    "name": "Aily Labs",
+    "domain": "ailylabs.com",
+    "url": "https://ailylabs.com/",
+    "hq": "Munich, Bayern, Germany",
+    "founded": "2020-01-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 100518159,
+    "last_round": "Series B",
+    "investors": [
+      "FPV Ventures",
+      "Insight Partners"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/aily-labs"
+  },
+  {
+    "name": "Algorithmiq",
+    "domain": "algorithmiq.fi",
+    "url": "https://www.algorithmiq.fi/",
+    "hq": "Turku, Western Finland, Finland",
+    "founded": "2020-01-01",
+    "funding_status": null,
+    "total_funding_usd": 40534915,
+    "last_round": "Venture - Series Unknown",
+    "investors": [
+      "Cassa Depositi e Prestiti",
+      "Inventure",
+      "United Ventures",
+      "Wellcome Leap"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/algorithmiq"
+  },
+  {
+    "name": "Aonic Group",
+    "domain": "aonic.co",
+    "url": "https://aonic.co/",
+    "hq": "Stockholm, Stockholms Lan, Sweden",
+    "founded": "2021-01-01",
+    "funding_status": "Private Equity",
+    "total_funding_usd": 159858483,
+    "last_round": "Private Equity",
+    "investors": [
+      "Metric Capital Partners"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/aonic-group"
+  },
+  {
+    "name": "Apheris",
+    "domain": "apheris.com",
+    "url": "https://www.apheris.com",
+    "hq": "Berlin, Berlin, Germany",
+    "founded": "2019-01-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 32482796,
+    "last_round": "Series A",
+    "investors": [
+      "eCapital",
+      "Intel Ignite",
+      "LocalGlobe",
+      "Octopus Ventures",
+      "OTB Ventures"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/apheris-ai"
+  },
+  {
+    "name": "Arbio",
+    "domain": "arbio.com",
+    "url": "https://arbio.com",
+    "hq": "Berlin, Berlin, Germany",
+    "founded": "2022-01-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 46205656,
+    "last_round": "Series A",
+    "investors": [
+      "Eurazeo"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/arbio-group"
+  },
+  {
+    "name": "Ayan",
+    "domain": "ayan.co.uk",
+    "url": "https://www.ayan.co.uk/",
+    "hq": "London, England, United Kingdom",
+    "founded": "2023-09-01",
+    "funding_status": "Seed",
+    "total_funding_usd": 3984074,
+    "last_round": "Seed",
+    "investors": [
+      "Partners for Growth"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/ayan-capital"
+  },
+  {
+    "name": "BLP Digital",
+    "domain": "blp.digital",
+    "url": "https://blp.digital/",
+    "hq": "Zürich, Zurich, Switzerland",
+    "founded": "2019-01-01",
+    "funding_status": null,
+    "total_funding_usd": null,
+    "last_round": null,
+    "investors": [
+      "Goldman Sachs Alternatives",
+      "Innosuisse",
+      "MassChallenge Switzerland"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/blp-digital"
+  },
+  {
+    "name": "Bigger Games",
+    "domain": "biggergames.com",
+    "url": "https://www.biggergames.com/",
+    "hq": "Sisli, Istanbul, Turkey",
+    "founded": "2019-03-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 31000000,
+    "last_round": "Series A",
+    "investors": [
+      "Goodwater Capital",
+      "Index Ventures"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/bigger-games"
+  },
+  {
+    "name": "BioCirc",
+    "domain": "biocirc.dk",
+    "url": "http://www.biocirc.dk/",
+    "hq": "Copenhagen, Hovedstaden, Denmark",
+    "founded": "2021-01-01",
+    "funding_status": null,
+    "total_funding_usd": 44413256,
+    "last_round": "Undisclosed",
+    "investors": null,
+    "crunchbase": "https://www.crunchbase.com/organization/biocirc"
+  },
+  {
+    "name": "Blockbrain",
+    "domain": "blockbrain.ai",
+    "url": "https://blockbrain.ai/",
+    "hq": "Stuttgart, Baden-Wurttemberg, Germany",
+    "founded": "2022-05-06",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 26210306,
+    "last_round": "Series A",
+    "investors": [
+      "13books Capital",
+      "Alstin Capital",
+      "Giesecke+Devrient Ventures"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/blockbrain"
+  },
+  {
+    "name": "Bloq.it",
+    "domain": "bloq.it",
+    "url": "https://bloq.it/",
+    "hq": "Lisbon, Lisboa, Portugal",
+    "founded": "2019-02-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 32632666,
+    "last_round": "Series B",
+    "investors": [
+      "Business Angel"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/bloq-it"
+  },
+  {
+    "name": "Boost",
+    "domain": "boostinc.com",
+    "url": "https://boostinc.com",
+    "hq": "Zürich, Zurich, Switzerland",
+    "founded": "2020-01-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 18729865,
+    "last_round": "Series B",
+    "investors": [
+      "Direttissima Growth Partners"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/boost-d243"
+  },
+  {
+    "name": "Born",
+    "domain": "born.com",
+    "url": "https://www.born.com/",
+    "hq": "Berlin, Berlin, Germany",
+    "founded": "2022-10-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 22600000,
+    "last_round": "Series A",
+    "investors": [
+      "Accel"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/slay-ad58"
+  },
+  {
+    "name": "Breathe Battery Technologies",
+    "domain": "breathebatteries.com",
+    "url": "https://breathebatteries.com/",
+    "hq": "London, England, United Kingdom",
+    "founded": "2019-01-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 32994954,
+    "last_round": "Series B",
+    "investors": [
+      "Creative Destruction Lab (CDL)",
+      "Kinnevik",
+      "Lowercarbon Capital",
+      "Speedinvest",
+      "Volvo Cars Tech Fund"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/breathe-battery-technologies"
+  },
+  {
+    "name": "CHARM Therapeutics",
+    "domain": "charmtx.com",
+    "url": "https://charmtx.com/",
+    "hq": "London, England, United Kingdom",
+    "founded": "2021-01-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 162690588,
+    "last_round": "Series B",
+    "investors": [
+      "F-Prime",
+      "NVentures",
+      "OrbiMed",
+      "SR One"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/charm-therapeutics"
+  },
+  {
+    "name": "Cerrion",
+    "domain": "cerrion.com",
+    "url": "https://cerrion.com",
+    "hq": "Zürich, Zurich, Switzerland",
+    "founded": "2021-01-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 23000000,
+    "last_round": "Series A",
+    "investors": [
+      "Creandum",
+      "Goat Capital",
+      "Y Combinator"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/cerrion"
+  },
+  {
+    "name": "Clinomic",
+    "domain": "clinomic.ai",
+    "url": "https://www.clinomic.ai/de/",
+    "hq": "Aachen, Nordrhein-Westfalen, Germany",
+    "founded": "2019-01-14",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 54616136,
+    "last_round": "Series B",
+    "investors": [
+      "DeepTech & Climate Fonds",
+      "German Federal Ministry of Research",
+      "Technology and Space",
+      "Sana Kliniken"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/clinomic"
+  },
+  {
+    "name": "Coultreon Biopharma",
+    "domain": "coultreon.com",
+    "url": "https://www.coultreon.com/",
+    "hq": "Heverlee, Vlaams-Brabant, Belgium",
+    "founded": "2025-01-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 125000000,
+    "last_round": "Series A",
+    "investors": [
+      "Forbion Capital Partners",
+      "Novo Holdings",
+      "Sofinnova Investments"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/onco3r-therapeutics"
+  },
+  {
+    "name": "DISCO Pharmaceuticals",
+    "domain": "discopharma.de",
+    "url": "https://discopharma.de/",
+    "hq": "Cologne, Nordrhein-Westfalen, Germany",
+    "founded": "2022-01-01",
+    "funding_status": "Seed",
+    "total_funding_usd": 64028311,
+    "last_round": "Seed",
+    "investors": [
+      "Ackermans & van Haaren",
+      "NRW.BANK",
+      "Sofinnova Partners"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/disco-pharmaceuticals"
+  },
+  {
+    "name": "Deblock",
+    "domain": "deblock.com",
+    "url": "https://deblock.com",
+    "hq": "London, England, United Kingdom",
+    "founded": "2022-01-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 63120122,
+    "last_round": "Series A",
+    "investors": [
+      "Speedinvest"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/deblock"
+  },
+  {
+    "name": "DeepUll",
+    "domain": "deepull.com",
+    "url": "https://deepull.com/",
+    "hq": "Barcelona, Catalonia, Spain",
+    "founded": "2019-01-01",
+    "funding_status": "Late Stage Venture",
+    "total_funding_usd": 91742679,
+    "last_round": "Series C",
+    "investors": [
+      "Alta Life Sciences",
+      "Asabys Partners",
+      "Centre for the Development of Industrial Technology (CDTI)",
+      "Columbus Venture Partners",
+      "European Investment Bank",
+      "Kurma Partners",
+      "Mérieux Equity Partners",
+      "Panakes Partners",
+      "Werfen"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/deepull"
+  },
+  {
+    "name": "Defacto",
+    "domain": "getdefacto.com",
+    "url": "https://www.getdefacto.com",
+    "hq": "Paris, Ile-de-France, France",
+    "founded": "2021-05-01",
+    "funding_status": null,
+    "total_funding_usd": 49276157,
+    "last_round": "Venture - Series Unknown",
+    "investors": [
+      "Citi",
+      "Citi Ventures",
+      "Global Founders Capital",
+      "Headline",
+      "Northzone",
+      "Viola Credit"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/defacto-588a"
+  },
+  {
+    "name": "DentaCore",
+    "domain": "dentacore.ch",
+    "url": "https://dentacore.ch",
+    "hq": "Baar, Zug, Switzerland",
+    "founded": "2021-01-01",
+    "funding_status": null,
+    "total_funding_usd": null,
+    "last_round": null,
+    "investors": null,
+    "crunchbase": "https://www.crunchbase.com/organization/dentacore"
+  },
+  {
+    "name": "Draig Therapeutics",
+    "domain": "draigtherapeutics.com",
+    "url": "https://draigtherapeutics.com/",
+    "hq": "Cardiff, Cardiff, United Kingdom",
+    "founded": "2024-01-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 140000000,
+    "last_round": "Series A",
+    "investors": [
+      "Access Biotechnology",
+      "Intermediate Capital Group",
+      "SV Health Investors"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/draig-therapeutics"
+  },
+  {
+    "name": "Elyse Energy",
+    "domain": "elyse.energy",
+    "url": "https://elyse.energy/",
+    "hq": "Lyon, Rhone-Alpes, France",
+    "founded": "2020-01-01",
+    "funding_status": null,
+    "total_funding_usd": 127037631,
+    "last_round": "Venture - Series Unknown",
+    "investors": null,
+    "crunchbase": "https://www.crunchbase.com/organization/elyse-energy"
+  },
+  {
+    "name": "Enagás Renovable",
+    "domain": "enagasrenovable.es",
+    "url": "https://enagasrenovable.es/",
+    "hq": "Madrid, Madrid, Spain",
+    "founded": "2019-01-01",
+    "funding_status": null,
+    "total_funding_usd": null,
+    "last_round": null,
+    "investors": [
+      "Hy24"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/enagás-renovable"
+  },
+  {
+    "name": "Enodia Therapeutics",
+    "domain": "enodiatx.com",
+    "url": "https://www.enodiatx.com/",
+    "hq": "Paris, Ile-de-France, France",
+    "founded": "2025-01-01",
+    "funding_status": "Seed",
+    "total_funding_usd": 24164712,
+    "last_round": "Seed",
+    "investors": [
+      "Bpifrance",
+      "Elaia",
+      "Pfizer Venture Investments"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/enodia-therapeutics"
+  },
+  {
+    "name": "Escape",
+    "domain": "escape.tech",
+    "url": "https://escape.tech/",
+    "hq": "Paris, Ile-de-France, France",
+    "founded": "2020-09-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 23840708,
+    "last_round": "Series A",
+    "investors": [
+      "Balderton Capital",
+      "Frst",
+      "IRIS",
+      "Y Combinator"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/escape-b74e"
+  },
+  {
+    "name": "Evervault",
+    "domain": "evervault.com",
+    "url": "https://evervault.com/",
+    "hq": "Dublin, Dublin, Ireland",
+    "founded": "2019-08-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 44400000,
+    "last_round": "Series B",
+    "investors": [
+      "Index Ventures",
+      "Ribbit Capital",
+      "Sequoia Capital"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/evervault"
+  },
+  {
+    "name": "FERNRIDE",
+    "domain": "fernride.com",
+    "url": "https://www.fernride.com/",
+    "hq": "Munich, Bayern, Germany",
+    "founded": "2019-09-20",
+    "funding_status": "M&A",
+    "total_funding_usd": 81980361,
+    "last_round": "Series A",
+    "investors": [
+      "10x Founders",
+      "EUDIS Business Accelerator",
+      "Fly Ventures",
+      "Helantic",
+      "Intel Ignite",
+      "Speedinvest"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/fernride"
+  },
+  {
+    "name": "FYLD",
+    "domain": "fyld.ai",
+    "url": "https://fyld.ai/",
+    "hq": "London, England, United Kingdom",
+    "founded": "2020-01-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 87911689,
+    "last_round": "Series B",
+    "investors": [
+      "Construction Startup Competition",
+      "Energy Impact Partners",
+      "Koru",
+      "NatWest Group",
+      "Ontario Teachers' Pension Plan"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/fyld"
+  },
+  {
+    "name": "Fifth Dimension AI",
+    "domain": "fifthdimensionai.com",
+    "url": "https://www.fifthdimensionai.com/",
+    "hq": "London, England, United Kingdom",
+    "founded": "2023-01-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 35832530,
+    "last_round": "Series A",
+    "investors": [
+      "Female Innovators Lab Fund",
+      "HV Capital",
+      "Seedcamp",
+      "Speedinvest"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/fifth-dimension-ai"
+  },
+  {
+    "name": "Filigran",
+    "domain": "filigran.io",
+    "url": "https://filigran.io/",
+    "hq": "Paris, Ile-de-France, France",
+    "founded": "2022-10-01",
+    "funding_status": "Late Stage Venture",
+    "total_funding_usd": 114652427,
+    "last_round": "Series C",
+    "investors": [
+      "Accel",
+      "Eurazeo",
+      "Insight Partners",
+      "Moonfire Ventures"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/filigran"
+  },
+  {
+    "name": "Firgun Ventures",
+    "domain": "firgun.vc",
+    "url": "https://firgun.vc/",
+    "hq": "London, England, United Kingdom",
+    "founded": "2025-11-01",
+    "funding_status": null,
+    "total_funding_usd": 70000000,
+    "last_round": "Undisclosed",
+    "investors": [
+      "Ilyas Khan",
+      "Qatar Investment Authority"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/firgun-ventures"
+  },
+  {
+    "name": "Flinn",
+    "domain": "flinn.ai",
+    "url": "https://www.flinn.ai/",
+    "hq": "Vienna, Wien, Austria",
+    "founded": "2022-01-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 28594566,
+    "last_round": "Series A",
+    "investors": [
+      "Cherry Ventures",
+      "HV Capital",
+      "Speedinvest",
+      "SquareOne Venture Capital"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/flinn-comply"
+  },
+  {
+    "name": "Flowdesk",
+    "domain": "flowdesk.co",
+    "url": "https://www.flowdesk.co/",
+    "hq": "Paris, Ile-de-France, France",
+    "founded": "2020-06-01",
+    "funding_status": null,
+    "total_funding_usd": 171800000,
+    "last_round": "Venture - Series Unknown",
+    "investors": [
+      "Aglaé Ventures",
+      "Cathay Innovation",
+      "Eurazeo",
+      "HV Capital",
+      "Two Prime Lending"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/flowdesk"
+  },
+  {
+    "name": "Fonoa",
+    "domain": "fonoa.com",
+    "url": "https://www.fonoa.com/",
+    "hq": "Dublin, Dublin, Ireland",
+    "founded": "2019-01-01",
+    "funding_status": "Late Stage Venture",
+    "total_funding_usd": 195000000,
+    "last_round": "Series C",
+    "investors": [
+      "Coatue",
+      "Headline",
+      "Index Ventures",
+      "OMERS Ventures"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/fonoa-technologies"
+  },
+  {
+    "name": "Frankenburg Technologies",
+    "domain": "frankenburg.tech",
+    "url": "https://frankenburg.tech/",
+    "hq": "Tallinn, Harjumaa, Estonia",
+    "founded": "2024-01-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 41348485,
+    "last_round": "Series A",
+    "investors": [
+      "Blossom Capital",
+      "Plural Platform",
+      "Shellona"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/frankenburg-technologies"
+  },
+  {
+    "name": "Gensyn",
+    "domain": "gensyn.ai",
+    "url": "https://www.gensyn.ai/",
+    "hq": "London, England, United Kingdom",
+    "founded": "2020-01-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 67300000,
+    "last_round": "Series B",
+    "investors": [
+      "7percent Ventures",
+      "a16z crypto",
+      "Eden Block"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/gensyn"
+  },
+  {
+    "name": "GetVocal AI",
+    "domain": "getvocal.ai",
+    "url": "https://www.getvocal.ai/",
+    "hq": "Paris, Ile-de-France, France",
+    "founded": "2023-01-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 28814670,
+    "last_round": "Series A",
+    "investors": [
+      "Creandum",
+      "Speedinvest"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/getvocal-ai"
+  },
+  {
+    "name": "Gizmo",
+    "domain": "gizmo.ai",
+    "url": "https://gizmo.ai/",
+    "hq": "London, England, United Kingdom",
+    "founded": "2019-01-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 25500000,
+    "last_round": "Series A",
+    "investors": [
+      "Ada Ventures",
+      "CapitalT",
+      "NFX",
+      "Shine Capital"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/gizmo-93e3"
+  },
+  {
+    "name": "Gradium",
+    "domain": "gradium.org",
+    "url": "https://gradium.org/",
+    "hq": "Paris, Ile-de-France, France",
+    "founded": "2025-01-01",
+    "funding_status": "Seed",
+    "total_funding_usd": 70000000,
+    "last_round": "Seed",
+    "investors": [
+      "Eurazeo",
+      "FirstMark"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/gradium"
+  },
+  {
+    "name": "Granite Bio",
+    "domain": "granitebio.com",
+    "url": "https://www.granitebio.com/",
+    "hq": "Basel, Basel-Stadt, Switzerland",
+    "founded": "2021-01-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 100000000,
+    "last_round": "Series B",
+    "investors": [
+      "Forbion Capital Partners",
+      "Novartis Venture Fund",
+      "Sanofi Ventures",
+      "Versant Ventures"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/granite-bio"
+  },
+  {
+    "name": "Gravis Robotics",
+    "domain": "gravisrobotics.com",
+    "url": "https://www.gravisrobotics.com/",
+    "hq": "Zürich, Zurich, Switzerland",
+    "founded": "2022-01-01",
+    "funding_status": "Seed",
+    "total_funding_usd": 23000000,
+    "last_round": "Seed",
+    "investors": [
+      "IQ Capital",
+      "Zacua Ventures"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/gravis-robotics"
+  },
+  {
+    "name": "Guardian Metal Resources",
+    "domain": "guardianmetalresources.com",
+    "url": "https://guardianmetalresources.com/",
+    "hq": "London, England, United Kingdom",
+    "founded": "2021-04-22",
+    "funding_status": "IPO",
+    "total_funding_usd": 1899697,
+    "last_round": "Post-IPO Equity",
+    "investors": [
+      "Duquesne Family Office",
+      "Premier Miton Group",
+      "Purebond",
+      "U.S. Department of Defense"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/golden-metal-resources"
+  },
+  {
+    "name": "Hedera Dx",
+    "domain": "hederadx.com",
+    "url": "https://www.hederadx.com/",
+    "hq": "Epalinges, Vaud, Switzerland",
+    "founded": "2021-07-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 30964976,
+    "last_round": "Series A",
+    "investors": [
+      "Top Harvest Capital",
+      "Vsquared Ventures"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/hedera-dx"
+  },
+  {
+    "name": "Hello Vet",
+    "domain": "hellovet.co.uk",
+    "url": "https://www.hellovet.co.uk/",
+    "hq": "London, England, United Kingdom",
+    "founded": "2022-01-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 27767261,
+    "last_round": "Series A",
+    "investors": [
+      "Addition",
+      "Future Positive"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/hello-vet"
+  },
+  {
+    "name": "Hercle",
+    "domain": "hercle.com",
+    "url": "https://www.hercle.com",
+    "hq": "Milano, Lombardia, Italy",
+    "founded": "2019-01-01",
+    "funding_status": null,
+    "total_funding_usd": 10001831,
+    "last_round": "Venture - Series Unknown",
+    "investors": [
+      "F-Prime",
+      "PranaVentures",
+      "Tenity"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/hercle-financial"
+  },
+  {
+    "name": "Holosolis",
+    "domain": "holosolis.com",
+    "url": "https://holosolis.com/",
+    "hq": "Paris, Ile-de-France, France",
+    "founded": "2023-01-01",
+    "funding_status": null,
+    "total_funding_usd": 254815137,
+    "last_round": "Undisclosed",
+    "investors": [
+      "Armor SA",
+      "Heraeus"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/holosolis"
+  },
+  {
+    "name": "Hubber",
+    "domain": "hubber-infra.co.uk",
+    "url": "https://www.hubber-infra.co.uk/",
+    "hq": "London, England, United Kingdom",
+    "founded": "2024-09-01",
+    "funding_status": null,
+    "total_funding_usd": null,
+    "last_round": null,
+    "investors": [
+      "Christopher Fox",
+      "James Bayliss"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/hubber-a3ca"
+  },
+  {
+    "name": "Hypersonica",
+    "domain": "hypersonica.space",
+    "url": "https://hypersonica.space/",
+    "hq": "Weßling, Bayern, Germany",
+    "founded": "2023-01-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 30499234,
+    "last_round": "Series A",
+    "investors": [
+      "General Catalyst",
+      "Plural Platform"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/hypersonica"
+  },
+  {
+    "name": "Hypr Space (Hybrid Propulsion for Space)",
+    "domain": "hypr-space.com",
+    "url": "https://hypr-space.com/",
+    "hq": "Bordeaux, Aquitaine, France",
+    "founded": "2019-01-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 32811461,
+    "last_round": "Series A",
+    "investors": [
+      "Bpifrance",
+      "France 2030",
+      "NACO",
+      "Red River West"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/hypr-space"
+  },
+  {
+    "name": "Hystar",
+    "domain": "hystar.com",
+    "url": "https://hystar.com/",
+    "hq": "Høvik, Akershus, Norway",
+    "founded": "2020-01-01",
+    "funding_status": "Late Stage Venture",
+    "total_funding_usd": 61837484,
+    "last_round": "Series C",
+    "investors": [
+      "AP Ventures",
+      "European Union",
+      "Mitsubishi Corporation"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/hystar-706a"
+  },
+  {
+    "name": "Isembard",
+    "domain": "isembard.com",
+    "url": "https://www.isembard.com/",
+    "hq": "London, England, United Kingdom",
+    "founded": "2024-01-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 59000000,
+    "last_round": "Series A",
+    "investors": [
+      "Notion Capital",
+      "Union Square Ventures"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/isembard"
+  },
+  {
+    "name": "JAAQ",
+    "domain": "jaqatwork.co.uk",
+    "url": "https://www.jaaqatwork.co.uk",
+    "hq": "London, England, United Kingdom",
+    "founded": "2021-01-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 17318947,
+    "last_round": "Series A",
+    "investors": null,
+    "crunchbase": "https://www.crunchbase.com/organization/jaaq"
+  },
+  {
+    "name": "Jack & Jill AI",
+    "domain": "jackandjill.ai",
+    "url": "https://www.jackandjill.ai/",
+    "hq": "London, England, United Kingdom",
+    "founded": "2025-01-01",
+    "funding_status": "Seed",
+    "total_funding_usd": 20000000,
+    "last_round": "Seed",
+    "investors": [
+      "Creandum"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/jack-jill-ai"
+  },
+  {
+    "name": "Juice",
+    "domain": "juice.uk.com",
+    "url": "https://juice.uk.com/",
+    "hq": "London, England, United Kingdom",
+    "founded": "2021-01-01",
+    "funding_status": null,
+    "total_funding_usd": 33092508,
+    "last_round": "Venture - Series Unknown",
+    "investors": [
+      "Aern capital",
+      "Falco",
+      "Paragon Banking Group"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/velocity-juice"
+  },
+  {
+    "name": "Jutro Medical",
+    "domain": "jutromedical.com",
+    "url": "https://jutromedical.com",
+    "hq": "Warsaw, Mazowieckie, Poland",
+    "founded": "2019-01-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 51153968,
+    "last_round": "Series A",
+    "investors": [
+      "Google for Startups",
+      "Inovo.vc",
+      "KAYA",
+      "mBank",
+      "ORBIT Capital",
+      "Rheingau Founders",
+      "RIO ASI",
+      "Warsaw Equity Group"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/jutro"
+  },
+  {
+    "name": "Karmen",
+    "domain": "karmen.io",
+    "url": "https://www.karmen.io",
+    "hq": "Paris, Ile-de-France, France",
+    "founded": "2021-01-01",
+    "funding_status": null,
+    "total_funding_usd": 13329484,
+    "last_round": "Venture - Series Unknown",
+    "investors": [
+      "Fasanara Capital",
+      "Seventure Partners",
+      "Sienna Investment Managers"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/karmen"
+  },
+  {
+    "name": "Kraken Technology Group",
+    "domain": "krakentechnology.com",
+    "url": "https://www.krakentechnology.com/",
+    "hq": "London, England, United Kingdom",
+    "founded": "2020-01-01",
+    "funding_status": null,
+    "total_funding_usd": null,
+    "last_round": null,
+    "investors": [
+      "United States Special Operations Command"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/kraken-technology-group"
+  },
+  {
+    "name": "LAXEY",
+    "domain": "laxey.is",
+    "url": "https://www.laxey.is/en/",
+    "hq": "Vestmannaeyjar, Rangarvallasysla, Iceland",
+    "founded": "2021-01-01",
+    "funding_status": null,
+    "total_funding_usd": 167901330,
+    "last_round": "Venture - Series Unknown",
+    "investors": [
+      "Arion Bank",
+      "Blue Future Holding"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/laxey"
+  },
+  {
+    "name": "LI.FI",
+    "domain": "li.fi",
+    "url": "https://li.fi/",
+    "hq": "Berlin, Berlin, Germany",
+    "founded": "2021-08-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 52000000,
+    "last_round": "Series A",
+    "investors": [
+      "1kx",
+      "CoinFund",
+      "Multicoin Capital",
+      "Superscrypt"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/li-finance-fbae"
+  },
+  {
+    "name": "Lace Lithography",
+    "domain": "lacelithography.com",
+    "url": "https://www.lacelithography.com/",
+    "hq": "Bergen, Hordaland, Norway",
+    "founded": "2023-01-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 40496415,
+    "last_round": "Series A",
+    "investors": [
+      "Atomico",
+      "Future Ventures"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/lace-lithography"
+  },
+  {
+    "name": "Latent Labs",
+    "domain": "latentlabs.com",
+    "url": "https://latentlabs.com",
+    "hq": "London, England, United Kingdom",
+    "founded": "2023-01-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 50000000,
+    "last_round": "Series A",
+    "investors": [
+      "Radical Ventures",
+      "Sofinnova Partners"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/latent-labs"
+  },
+  {
+    "name": "Lawhive",
+    "domain": "lawhive.co.uk",
+    "url": "https://lawhive.co.uk/",
+    "hq": "London, England, United Kingdom",
+    "founded": "2019-01-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 114200000,
+    "last_round": "Series B",
+    "investors": [
+      "Episode 1",
+      "Google Ventures",
+      "Mitch Rales",
+      "TQ Ventures"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/lawhive"
+  },
+  {
+    "name": "Light",
+    "domain": "light.inc",
+    "url": "https://light.inc",
+    "hq": "Copenhagen, Hovedstaden, Denmark",
+    "founded": "2023-01-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 43000000,
+    "last_round": "Series A",
+    "investors": [
+      "Atomico",
+      "Balderton Capital"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/light-e65e"
+  },
+  {
+    "name": "Lightyear",
+    "domain": "lightyear.com",
+    "url": "https://lightyear.com",
+    "hq": "London, England, United Kingdom",
+    "founded": "2020-01-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 58528798,
+    "last_round": "Series B",
+    "investors": [
+      "Lightspeed Venture Partners",
+      "Mosaic Ventures",
+      "NordicNinja VC",
+      "Sten Tamkivi",
+      "Taavet Hinrikus"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/lightyear-2669"
+  },
+  {
+    "name": "Lithosquare",
+    "domain": "lithosquare.com",
+    "url": "https://www.lithosquare.com/",
+    "hq": "Paris, Ile-de-France, France",
+    "founded": "2024-04-15",
+    "funding_status": "Seed",
+    "total_funding_usd": 25000000,
+    "last_round": "Seed",
+    "investors": [
+      "AGORANOV",
+      "Kindred Capital",
+      "World Fund"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/lithosquare"
+  },
+  {
+    "name": "Lupa Pets",
+    "domain": "lupapets.com",
+    "url": "https://lupapets.com",
+    "hq": "London, England, United Kingdom",
+    "founded": "2023-06-06",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 25000000,
+    "last_round": "Series A",
+    "investors": [
+      "Firstminute Capital",
+      "Singular"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/lupa-pets"
+  },
+  {
+    "name": "MATR Foods",
+    "domain": "matrfoods.com",
+    "url": "https://matrfoods.com/",
+    "hq": "Copenhagen, Hovedstaden, Denmark",
+    "founded": "2021-01-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 23198896,
+    "last_round": "Series A",
+    "investors": [
+      "BioInnovation Institute",
+      "EIT Food",
+      "European Investment Bank",
+      "Export and Investment Fund",
+      "Novo Holdings"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/matr-foods"
+  },
+  {
+    "name": "MECH-I-TRONIC",
+    "domain": "mechitronic.com",
+    "url": "https://www.mechitronic.com/",
+    "hq": "Paris, Ile-de-France, France",
+    "founded": "2022-01-01",
+    "funding_status": "Private Equity",
+    "total_funding_usd": 119453925,
+    "last_round": "Private Equity",
+    "investors": [
+      "Three Hills Capital Partners"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/mech-i-tronic"
+  },
+  {
+    "name": "Maxion Therapeutics",
+    "domain": "maxiontherapeutics.com",
+    "url": "https://www.maxiontherapeutics.com/",
+    "hq": "Cambridge, Cambridgeshire, United Kingdom",
+    "founded": "2020-01-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 90955464,
+    "last_round": "Series A",
+    "investors": [
+      "General Catalyst",
+      "LifeArc Ventures"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/maxion-therapeutics"
+  },
+  {
+    "name": "Meelo",
+    "domain": "getmeelo.com",
+    "url": "https://getmeelo.com",
+    "hq": "Marcq-en-baroeul, Nord-Pas-de-Calais, France",
+    "founded": "2019-01-01",
+    "funding_status": null,
+    "total_funding_usd": 19665740,
+    "last_round": "Venture - Series Unknown",
+    "investors": [
+      "ISALT",
+      "ODYSSEE VENTURE"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/meelo"
+  },
+  {
+    "name": "Meridial",
+    "domain": "meridial.org",
+    "url": "https://meridial.org",
+    "hq": "London, England, United Kingdom",
+    "founded": "2026-01-21",
+    "funding_status": null,
+    "total_funding_usd": null,
+    "last_round": null,
+    "investors": [
+      "ARIA"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/meridial"
+  },
+  {
+    "name": "Mirelo AI",
+    "domain": "mirelo.ai",
+    "url": "https://www.mirelo.ai/",
+    "hq": "Tübingen, Baden-Wurttemberg, Germany",
+    "founded": "2023-01-01",
+    "funding_status": "Seed",
+    "total_funding_usd": 41000000,
+    "last_round": "Seed",
+    "investors": [
+      "Andreessen Horowitz",
+      "Index Ventures"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/mirelo-ai"
+  },
+  {
+    "name": "Mondu",
+    "domain": "mondu.ai",
+    "url": "https://mondu.ai",
+    "hq": "Berlin, Berlin, Germany",
+    "founded": "2021-01-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 70378676,
+    "last_round": "Series A",
+    "investors": [
+      "Cherry Ventures",
+      "FinTech Collective",
+      "JPMorgan Partners",
+      "Valar Ventures",
+      "Vereinigte Volksbank Raiffeisenbank"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/mondu"
+  },
+  {
+    "name": "MoonLake Immunotherapeutics",
+    "domain": "moonlaketx.com",
+    "url": "https://www.moonlaketx.com",
+    "hq": "Zug, Zug, Switzerland",
+    "founded": "2021-03-01",
+    "funding_status": "IPO",
+    "total_funding_usd": 590000000,
+    "last_round": "Post-IPO Equity",
+    "investors": [
+      "Biotechnology Value Fund",
+      "Cormorant Asset Management",
+      "Hercules Capital"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/moonlake-immunotherapeutics"
+  },
+  {
+    "name": "NEXSTUN",
+    "domain": "nexstun.com",
+    "url": "http://nexstun.com",
+    "hq": "Mauguio, Languedoc-Roussillon, France",
+    "founded": "2021-01-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 47805362,
+    "last_round": "Series A",
+    "investors": [
+      "The Global Emerging Markets Group"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/nexstun"
+  },
+  {
+    "name": "NIP Group",
+    "domain": "nipg.com",
+    "url": "https://nipg.com",
+    "hq": "Stockholm, Stockholms Lan, Sweden",
+    "founded": "2023-01-01",
+    "funding_status": "IPO",
+    "total_funding_usd": 40000000,
+    "last_round": "Post-IPO Equity",
+    "investors": null,
+    "crunchbase": "https://www.crunchbase.com/organization/nip-group"
+  },
+  {
+    "name": "NanoPhoria",
+    "domain": "nanophoria.com",
+    "url": "https://nanophoria.com",
+    "hq": "Milan, Lombardia, Italy",
+    "founded": "2022-01-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 113501707,
+    "last_round": "Series A",
+    "investors": [
+      "CDP Venture Capital",
+      "EIC Accelerator",
+      "Sofinnova Partners",
+      "XGEN Venture"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/nanophoria"
+  },
+  {
+    "name": "Netomnia",
+    "domain": "netomnia.com",
+    "url": "https://www.netomnia.com",
+    "hq": "London, England, United Kingdom",
+    "founded": "2019-01-01",
+    "funding_status": "M&A",
+    "total_funding_usd": 452589267,
+    "last_round": "Series C",
+    "investors": [
+      "Avenue Capital Group",
+      "DigitalBridge Investment Management",
+      "I Squared Capital",
+      "Palistar Capital"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/netomnia"
+  },
+  {
+    "name": "Neumirna Therapeutics",
+    "domain": "neumirna.com",
+    "url": "https://neumirna.com",
+    "hq": "Copenhagen, Hovedstaden, Denmark",
+    "founded": "2020-01-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 20626829,
+    "last_round": "Series A",
+    "investors": [
+      "Angelini Ventures",
+      "Invivo Capital Partners"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/neumirna-therapeutics"
+  },
+  {
+    "name": "Neural Concept",
+    "domain": "neuralconcept.com",
+    "url": "https://www.neuralconcept.com",
+    "hq": "Lausanne, Vaud, Switzerland",
+    "founded": "2019-01-01",
+    "funding_status": "Late Stage Venture",
+    "total_funding_usd": 136198005,
+    "last_round": "Series C",
+    "investors": [
+      "Alven",
+      "CES",
+      "CNB Capital",
+      "Forestay Capital",
+      "Foundation for Innovation and Technology (FIT)",
+      "Goldman Sachs Alternatives",
+      "Venture Kick"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/neural-concept"
+  },
+  {
+    "name": "NexGen Cloud",
+    "domain": "nexgencloud.com",
+    "url": "https://www.nexgencloud.com/",
+    "hq": "London, England, United Kingdom",
+    "founded": "2020-01-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 59000000,
+    "last_round": "Series A",
+    "investors": [
+      "DARMA Capital",
+      "Moore & Moore Investment"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/nexgen-cloud-bf96"
+  },
+  {
+    "name": "Nyobolt",
+    "domain": "nyobolt.com",
+    "url": "https://nyobolt.com/",
+    "hq": "Cambridge, Cambridgeshire, United Kingdom",
+    "founded": "2020-01-01",
+    "funding_status": "Late Stage Venture",
+    "total_funding_usd": 173582009,
+    "last_round": "Series C",
+    "investors": [
+      "DRIVE35",
+      "H.C. Starck",
+      "IQ Capital",
+      "LocalGlobe",
+      "Symbotic",
+      "UK Research and Innovation"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/nyobolt"
+  },
+  {
+    "name": "OLIX",
+    "domain": "olix.com",
+    "url": "https://olix.com/",
+    "hq": "London, England, United Kingdom",
+    "founded": "2024-01-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 250000000,
+    "last_round": "Series A",
+    "investors": [
+      "Crane Venture Partners",
+      "Hummingbird Ventures"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/flux-computing"
+  },
+  {
+    "name": "Octonomy",
+    "domain": "octonomy.ai",
+    "url": "https://www.octonomy.ai/",
+    "hq": "Köln, Nordrhein-Westfalen, Germany",
+    "founded": "2024-01-01",
+    "funding_status": "Seed",
+    "total_funding_usd": 26508547,
+    "last_round": "Seed",
+    "investors": [
+      "Capnamic",
+      "Macquarie Capital"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/octonomy"
+  },
+  {
+    "name": "Onodrim Industries",
+    "domain": "onodrim.com",
+    "url": "https://www.onodrim.com/",
+    "hq": "Amsterdam, Noord-Holland, The Netherlands",
+    "founded": "2025-01-01",
+    "funding_status": "Seed",
+    "total_funding_usd": 47421796,
+    "last_round": "Seed",
+    "investors": [
+      "Founders Fund",
+      "General Catalyst",
+      "Lakestar"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/onodrim-industries"
+  },
+  {
+    "name": "Orange Quantum Systems",
+    "domain": "orangeqs.com",
+    "url": "https://orangeqs.com/",
+    "hq": "Delft, Zuid-Holland, The Netherlands",
+    "founded": "2020-01-01",
+    "funding_status": "Seed",
+    "total_funding_usd": 33047918,
+    "last_round": "Seed",
+    "investors": [
+      "Cottonwood Technology Fund",
+      "EIC Accelerator",
+      "European Innovation Council Fund",
+      "Ground State Ventures",
+      "Icecat Capital"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/orange-quantum-systems"
+  },
+  {
+    "name": "Photoncycle",
+    "domain": "photoncycle.com",
+    "url": "https://www.photoncycle.com",
+    "hq": "Oslo, Oslo, Norway",
+    "founded": "2020-01-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 22778803,
+    "last_round": "Series A",
+    "investors": [
+      "Lifeline Ventures",
+      "NordicNinja VC",
+      "Voima Ventures"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/photoncycle"
+  },
+  {
+    "name": "Pit",
+    "domain": "pit.com",
+    "url": "https://pit.com/",
+    "hq": "Stockholm, Stockholms Lan, Sweden",
+    "founded": "2025-01-01",
+    "funding_status": "Seed",
+    "total_funding_usd": 16000000,
+    "last_round": "Seed",
+    "investors": [
+      "Andreessen Horowitz"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/pit-e351"
+  },
+  {
+    "name": "Plancraft",
+    "domain": "plancraft.com",
+    "url": "https://plancraft.com/de-de",
+    "hq": "Hamburg, Hamburg, Germany",
+    "founded": "2020-02-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 59634191,
+    "last_round": "Series B",
+    "investors": [
+      "Creandum",
+      "Headline"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/plancraft"
+  },
+  {
+    "name": "Planetary",
+    "domain": "planetarygroup.ch",
+    "url": "https://www.planetarygroup.ch/",
+    "hq": "Geneva, Geneve, Switzerland",
+    "founded": "2022-01-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 31991549,
+    "last_round": "Series A",
+    "investors": [
+      "Astanor Ventures",
+      "Cosun Protein",
+      "Oetker Ventures",
+      "Radikal Capital"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/planetary-758b"
+  },
+  {
+    "name": "Proxima Fusion",
+    "domain": "proximafusion.com",
+    "url": "https://www.proximafusion.com/",
+    "hq": "Munich, Bayern, Germany",
+    "founded": "2023-01-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 213305127,
+    "last_round": "Series A",
+    "investors": [
+      "Balderton Capital",
+      "Cherry Ventures",
+      "EIC Accelerator",
+      "German Federal Ministry of Research",
+      "Technology and Space",
+      "Intel Ignite",
+      "Plural Platform",
+      "redalpine",
+      "UVC Partners"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/proxima-fusion"
+  },
+  {
+    "name": "Qdrant",
+    "domain": "qdrant.tech",
+    "url": "https://qdrant.tech/",
+    "hq": "Berlin, Berlin, Germany",
+    "founded": "2021-10-29",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 88268073,
+    "last_round": "Series B",
+    "investors": [
+      "42CAP",
+      "AVP",
+      "Spark Capital",
+      "Unusual Ventures"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/qdrant"
+  },
+  {
+    "name": "QuantWare",
+    "domain": "quantware.com",
+    "url": "https://quantware.com/",
+    "hq": "Delft, Zuid-Holland, The Netherlands",
+    "founded": "2020-11-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 206933240,
+    "last_round": "Series B",
+    "investors": [
+      "European Innovation Council",
+      "FORWARD.one",
+      "InnovationQuarter",
+      "Invest-NL"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/quantware"
+  },
+  {
+    "name": "QuiX",
+    "domain": "quixquantum.com",
+    "url": "http://www.quixquantum.com",
+    "hq": "Enschede, Overijssel, The Netherlands",
+    "founded": "2019-01-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 42217805,
+    "last_round": "Series A",
+    "investors": [
+      "EIC Accelerator",
+      "EIC Scaling Club",
+      "European Innovation Council Fund",
+      "Invest-NL"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/quix-42ff"
+  },
+  {
+    "name": "Quobly",
+    "domain": "quobly.io",
+    "url": "https://www.quobly.io/",
+    "hq": "Grenoble, Rhone-Alpes, France",
+    "founded": "2022-01-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 27936222,
+    "last_round": "Series A",
+    "investors": [
+      "Bpifrance",
+      "EIC Accelerator",
+      "EIC Scaling Club",
+      "France 2030",
+      "Innovacom",
+      "Quantonation",
+      "Supernova Invest"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/quobly"
+  },
+  {
+    "name": "R3 Robotics",
+    "domain": "r3robotics.ai",
+    "url": "https://r3robotics.ai/",
+    "hq": "Foetz, Luxembourg, Luxembourg",
+    "founded": "2021-06-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 21302198,
+    "last_round": "Series A",
+    "investors": [
+      "Amazon",
+      "BONVENTURE",
+      "EIC Accelerator",
+      "HG Ventures",
+      "Suma Capital"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/circu-li-ion"
+  },
+  {
+    "name": "ReOrbit",
+    "domain": "reorbit.space",
+    "url": "https://www.reorbit.space/",
+    "hq": "Helsinki, Southern Finland, Finland",
+    "founded": "2019-11-05",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 73558069,
+    "last_round": "Series A",
+    "investors": [
+      "Icebreaker.vc",
+      "Inventure",
+      "Springvest"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/reorbit"
+  },
+  {
+    "name": "Relay",
+    "domain": "relaytech.co",
+    "url": "https://www.relaytech.co/",
+    "hq": "London, England, United Kingdom",
+    "founded": "2022-01-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 45000000,
+    "last_round": "Series A",
+    "investors": [
+      "Plural Platform",
+      "Project A Ventures",
+      "Prologis Ventures"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/relay-e3e4"
+  },
+  {
+    "name": "Renaissance Fusion",
+    "domain": "renfusion.eu",
+    "url": "https://renfusion.eu/",
+    "hq": "Fontaine, Rhone-Alpes, France",
+    "founded": "2020-07-20",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 50860237,
+    "last_round": "Series A",
+    "investors": [
+      "Crédit Mutuel Impact",
+      "Lowercarbon Capital",
+      "Unruly Capital"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/renaissance-fusion"
+  },
+  {
+    "name": "Renalfa IPP",
+    "domain": "renalfa.com",
+    "url": "https://www.renalfa.com",
+    "hq": "Vienna, Wien, Austria",
+    "founded": "2022-01-01",
+    "funding_status": null,
+    "total_funding_usd": null,
+    "last_round": null,
+    "investors": [
+      "European Bank for Reconstruction and Development"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/renalfa-ipp"
+  },
+  {
+    "name": "ReproNovo",
+    "domain": "repronovo.com",
+    "url": "http://www.repronovo.com",
+    "hq": "Lausanne, Vaud, Switzerland",
+    "founded": "2021-01-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 65000000,
+    "last_round": "Series A",
+    "investors": [
+      "AXA Alternative Investments",
+      "Jeito Capital",
+      "M Ventures"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/repronovo"
+  },
+  {
+    "name": "Rerun",
+    "domain": "rerun.io",
+    "url": "https://www.rerun.io",
+    "hq": "Stockholm, Stockholms Lan, Sweden",
+    "founded": "2022-01-01",
+    "funding_status": "Seed",
+    "total_funding_usd": 20369858,
+    "last_round": "Seed",
+    "investors": [
+      "Costanoa Ventures",
+      "Point Nine"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/rerun-c67d"
+  },
+  {
+    "name": "Ripple Prime",
+    "domain": "ripple.com",
+    "url": "https://ripple.com/solutions/prime-brokerage/",
+    "hq": "London, England, United Kingdom",
+    "founded": "2019-01-01",
+    "funding_status": "M&A",
+    "total_funding_usd": 50000000,
+    "last_round": "Series A",
+    "investors": [
+      "Castle Island Ventures",
+      "Neuberger Berman"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/hidden-road"
+  },
+  {
+    "name": "Satsuma Technology",
+    "domain": "satsuma.digital",
+    "url": "https://www.satsuma.digital/",
+    "hq": "London, England, United Kingdom",
+    "founded": "2019-12-12",
+    "funding_status": "IPO",
+    "total_funding_usd": null,
+    "last_round": "Post-IPO Equity",
+    "investors": [
+      "Fineqia",
+      "Flatiron Labs"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/streaks"
+  },
+  {
+    "name": "Saturn AI",
+    "domain": "saturnos.com",
+    "url": "https://www.saturnos.com/",
+    "hq": "London, England, United Kingdom",
+    "founded": "2023-07-13",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 17727486,
+    "last_round": "Series A",
+    "investors": [
+      "Singular",
+      "Y Combinator"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/saturn-fd05"
+  },
+  {
+    "name": "Scope AI",
+    "domain": "getscope.ai",
+    "url": "https://www.getscope.ai/",
+    "hq": "London, England, United Kingdom",
+    "founded": "2024-01-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 20000000,
+    "last_round": "Series A",
+    "investors": [
+      "Index Ventures"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/scope-ai"
+  },
+  {
+    "name": "ShanX Medtech",
+    "domain": "shanxmedtech.com",
+    "url": "https://shanxmedtech.com",
+    "hq": "Eindhoven, Noord-Brabant, The Netherlands",
+    "founded": "2019-04-01",
+    "funding_status": "Seed",
+    "total_funding_usd": 17541808,
+    "last_round": "Seed",
+    "investors": [
+      "Borski Fund",
+      "Netherlands Enterprise Agency"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/shanx-medtech"
+  },
+  {
+    "name": "Sipay",
+    "domain": "sipay.com.tr",
+    "url": "https://sipay.com.tr",
+    "hq": "Istanbul, Istanbul, Turkey",
+    "founded": "2019-01-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 93000000,
+    "last_round": "Series B",
+    "investors": [
+      "Anfa",
+      "Elephant"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/sipay"
+  },
+  {
+    "name": "Skyral Group",
+    "domain": "skyral.com",
+    "url": "https://www.skyral.com/",
+    "hq": "London, England, United Kingdom",
+    "founded": "2023-01-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 20000000,
+    "last_round": "Series A",
+    "investors": [
+      "NOIA Capital"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/skyral-group"
+  },
+  {
+    "name": "Sokin",
+    "domain": "sokin.com",
+    "url": "https://sokin.com",
+    "hq": "London, England, United Kingdom",
+    "founded": "2019-03-17",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 80955120,
+    "last_round": "Series B",
+    "investors": [
+      "BlackRock",
+      "Morgan Stanley",
+      "Oxford Finance LLC",
+      "Prysm Capital"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/sokin"
+  },
+  {
+    "name": "Solve Intelligence",
+    "domain": "solveintelligence.com",
+    "url": "https://www.solveintelligence.com/",
+    "hq": "London, England, United Kingdom",
+    "founded": "2023-06-02",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 55000000,
+    "last_round": "Series B",
+    "investors": [
+      "Intel Ignite",
+      "The Twenty Minute VC",
+      "Visionaries Club"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/solve-intelligence"
+  },
+  {
+    "name": "SolveAI",
+    "domain": "solve.ai",
+    "url": "https://solve.ai/",
+    "hq": "London, England, United Kingdom",
+    "founded": "2025-01-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 50000000,
+    "last_round": "Series A",
+    "investors": [
+      "Accel",
+      "Google Ventures"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/solveai"
+  },
+  {
+    "name": "Sovereign Network Group",
+    "domain": "sng.org.uk",
+    "url": "https://www.sng.org.uk/",
+    "hq": "Basingstoke, Hampshire, United Kingdom",
+    "founded": "2023-01-01",
+    "funding_status": null,
+    "total_funding_usd": null,
+    "last_round": null,
+    "investors": [
+      "Barclays",
+      "Lloyds Banking Group",
+      "NatWest"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/sovereign-network-group"
+  },
+  {
+    "name": "Spiko",
+    "domain": "spiko.io",
+    "url": "https://www.spiko.io/fr",
+    "hq": "Paris, Ile-de-France, France",
+    "founded": "2023-06-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 25784017,
+    "last_round": "Series A",
+    "investors": [
+      "Frst",
+      "Index Ventures"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/spiko"
+  },
+  {
+    "name": "Stacks",
+    "domain": "stacks.ai",
+    "url": "https://stacks.ai/",
+    "hq": "Amsterdam, Noord-Holland, The Netherlands",
+    "founded": "2024-04-05",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 33420879,
+    "last_round": "Series A",
+    "investors": [
+      "EQT Ventures",
+      "General Catalyst",
+      "Lightspeed Venture Partners"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/stacks-87ce"
+  },
+  {
+    "name": "Standing Ovation",
+    "domain": "standing-ovation.co",
+    "url": "https://standing-ovation.co/",
+    "hq": "Paris, Ile-de-France, France",
+    "founded": "2021-01-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 44785198,
+    "last_round": "Series B",
+    "investors": [
+      "Astanor Ventures",
+      "Bpifrance",
+      "Crédit Mutuel Innovation",
+      "Government of France"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/standing-ovation-39d6"
+  },
+  {
+    "name": "Supercritical",
+    "domain": "supercritical.solutions",
+    "url": "https://www.supercritical.solutions/",
+    "hq": "London, England, United Kingdom",
+    "founded": "2020-06-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 17400000,
+    "last_round": "Series A",
+    "investors": [
+      "Shell Ventures",
+      "Toyota Ventures"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/supercritical-5974"
+  },
+  {
+    "name": "Syndex Bio",
+    "domain": "syndex.bio",
+    "url": "https://www.syndex.bio/",
+    "hq": "Cambridge, Cambridgeshire, United Kingdom",
+    "founded": "2022-01-01",
+    "funding_status": "Seed",
+    "total_funding_usd": 15500000,
+    "last_round": "Seed",
+    "investors": [
+      "ARCH Venture Partners"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/syndex-bio"
+  },
+  {
+    "name": "SynthFlow AI",
+    "domain": "synthflow.ai",
+    "url": "https://synthflow.ai/",
+    "hq": "Berlin, Berlin, Germany",
+    "founded": "2023-07-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 28984617,
+    "last_round": "Series A",
+    "investors": [
+      "Accel",
+      "Atlantic",
+      "Singular"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/synthflow-ai"
+  },
+  {
+    "name": "Synthesized",
+    "domain": "synthesized.io",
+    "url": "https://www.synthesized.io",
+    "hq": "London, England, United Kingdom",
+    "founded": "2020-01-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 22800000,
+    "last_round": "Series A",
+    "investors": [
+      "Alma Mundi Ventures",
+      "Deutsche Bank",
+      "Google for Startups",
+      "IQ Capital",
+      "redalpine",
+      "Seedcamp",
+      "UBS Next"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/synthesized-io"
+  },
+  {
+    "name": "TaleMonster Games",
+    "domain": "talemonster.games",
+    "url": "https://talemonster.games/",
+    "hq": "Istanbul, Istanbul, Turkey",
+    "founded": "2024-01-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 37000000,
+    "last_round": "Series A",
+    "investors": [
+      "Andreessen Horowitz",
+      "Arcadia Gaming Partners",
+      "General Catalyst"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/talemonster-games"
+  },
+  {
+    "name": "Tandem Health",
+    "domain": "tandemhealth.ai",
+    "url": "https://tandemhealth.ai/",
+    "hq": "Stockholm, Stockholms Lan, Sweden",
+    "founded": "2023-01-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 59709915,
+    "last_round": "Series A",
+    "investors": [
+      "Kinnevik",
+      "Northzone"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/tandem-health-aeb2"
+  },
+  {
+    "name": "Tapline",
+    "domain": "tapline.io",
+    "url": "https://tapline.io/",
+    "hq": "Berlin, Berlin, Germany",
+    "founded": "2021-07-06",
+    "funding_status": "M&A",
+    "total_funding_usd": 22723057,
+    "last_round": "Seed",
+    "investors": [
+      "Antler",
+      "Fasanara Capital",
+      "Karim Beshara",
+      "V-Sharp Venture Studio",
+      "WinYield"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/tapline"
+  },
+  {
+    "name": "Tem-Energy",
+    "domain": "tem.energy",
+    "url": "https://www.tem.energy/",
+    "hq": "London, England, United Kingdom",
+    "founded": "2021-01-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 91920480,
+    "last_round": "Series B",
+    "investors": [
+      "AlbionVC",
+      "Atomico",
+      "Lightspeed Venture Partners"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/tem-9f9a"
+  },
+  {
+    "name": "Tytan Technologies",
+    "domain": "tytan-technologies.com",
+    "url": "https://www.tytan-technologies.com/",
+    "hq": "Munich, Bayern, Germany",
+    "founded": "2023-01-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 52471302,
+    "last_round": "Series A",
+    "investors": [
+      "Armira",
+      "Magnetic Capital",
+      "NATO Innovation Fund"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/tytan-technologies"
+  },
+  {
+    "name": "Validation Cloud",
+    "domain": "validationcloud.io",
+    "url": "https://www.validationcloud.io/",
+    "hq": "Zug, Zug, Switzerland",
+    "founded": "2022-01-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 21000000,
+    "last_round": "Series A",
+    "investors": [
+      "Blockchain Founders Fund",
+      "Cadenza Ventures",
+      "True Global Ventures (TGV)"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/validation-cloud"
+  },
+  {
+    "name": "Verda (formerly DataCrunch)",
+    "domain": "verda.com",
+    "url": "https://verda.com",
+    "hq": "Helsinki, Southern Finland, Finland",
+    "founded": "2020-02-01",
+    "funding_status": null,
+    "total_funding_usd": 190283260,
+    "last_round": "Venture - Series Unknown",
+    "investors": [
+      "Armada Credit Partners",
+      "byFounders",
+      "Lifeline Ventures",
+      "Nordea",
+      "Skaala",
+      "Tesi",
+      "Varma Mutual Pension Insurance Company"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/datacrunch-io"
+  },
+  {
+    "name": "Vertice",
+    "domain": "vertice.one",
+    "url": "https://www.vertice.one/",
+    "hq": "London, England, United Kingdom",
+    "founded": "2021-01-01",
+    "funding_status": "Late Stage Venture",
+    "total_funding_usd": 100973537,
+    "last_round": "Series C",
+    "investors": [
+      "83North",
+      "Bessemer Venture Partners",
+      "Lakestar"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/vertice-9c2f"
+  },
+  {
+    "name": "Via Sana",
+    "domain": "centreviasana.com",
+    "url": "http://www.centreviasana.com",
+    "hq": "Paris, Ile-de-France, France",
+    "founded": "2020-01-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 24661677,
+    "last_round": "Series A",
+    "investors": [
+      "ISALT"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/via-sana-a0b1"
+  },
+  {
+    "name": "Voltfang",
+    "domain": "voltfang.de",
+    "url": "https://voltfang.de",
+    "hq": "Aachen, Nordrhein-Westfalen, Germany",
+    "founded": "2021-01-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 31993446,
+    "last_round": "Series B",
+    "investors": [
+      "AENU",
+      "FORWARD.one",
+      "PT1"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/voltfang"
+  },
+  {
+    "name": "Vytal",
+    "domain": "vytal.org",
+    "url": "https://www.vytal.org/",
+    "hq": "Cologne, Nordrhein-Westfalen, Germany",
+    "founded": "2019-01-01",
+    "funding_status": null,
+    "total_funding_usd": 34568936,
+    "last_round": "Venture - Series Unknown",
+    "investors": [
+      "Emerald Technology Ventures",
+      "Grazia Equity",
+      "Inven Capital"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/vytal"
+  },
+  {
+    "name": "Xoople",
+    "domain": "xoople.com",
+    "url": "https://www.xoople.com",
+    "hq": "Madrid, Madrid, Spain",
+    "founded": "2019-01-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 283720273,
+    "last_round": "Series B",
+    "investors": [
+      "Centre for the Development of Industrial Technology (CDTI)",
+      "Nazca Capital"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/xoople"
+  },
+  {
+    "name": "ZILO",
+    "domain": "zilo.co.uk",
+    "url": "https://www.zilo.co.uk/",
+    "hq": "London, England, United Kingdom",
+    "founded": "2020-04-20",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 75566730,
+    "last_round": "Series A",
+    "investors": [
+      "ASP Ventures",
+      "Fidelity International Strategic Ventures",
+      "Portage Ventures"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/xilo-technology"
+  },
+  {
+    "name": "Zama",
+    "domain": "zama.ai",
+    "url": "https://www.zama.ai",
+    "hq": "Zug, Zug, Switzerland",
+    "founded": "2020-01-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 139272392,
+    "last_round": "Series B",
+    "investors": [
+      "Blockchange Ventures",
+      "Multicoin Capital",
+      "Pantera Capital",
+      "Protocol Labs"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/zama-aa23"
+  },
+  {
+    "name": "cartagon.ai",
+    "domain": "cartagon.ai",
+    "url": "http://cartagon.ai",
+    "hq": "Berlin, Berlin, Germany",
+    "founded": "2025-01-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 32564663,
+    "last_round": "Series A",
+    "investors": [
+      "Core Capital Investments"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/cartagon-ai"
+  },
+  {
+    "name": "deskbird",
+    "domain": "deskbird.com",
+    "url": "https://www.deskbird.com/",
+    "hq": "Pfaffikon, Zurich, Switzerland",
+    "founded": "2020-08-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 42700000,
+    "last_round": "Series B",
+    "investors": [
+      "AVP",
+      "FortyOne Group",
+      "Neva SGR",
+      "Octopus Ventures",
+      "Rivus Capital",
+      "Session.vc"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/deskbird"
+  },
+  {
+    "name": "ecoplanet",
+    "domain": "ecoplanet.tech",
+    "url": "https://www.ecoplanet.tech/",
+    "hq": "München, Bayern, Germany",
+    "founded": "2022-07-27",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 19546070,
+    "last_round": "Series A",
+    "investors": [
+      "EQT Ventures",
+      "HV Capital"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/ecoplanet"
+  },
+  {
+    "name": "eleQtron",
+    "domain": "eleqtron.com",
+    "url": "https://eleqtron.com/",
+    "hq": "Siegen, Nordrhein-Westfalen, Germany",
+    "founded": "2020-05-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 73029609,
+    "last_round": "Series A",
+    "investors": [
+      "Earlybird Venture Capital",
+      "EIC Accelerator",
+      "European Union",
+      "German Federal Ministry of Research",
+      "Technology and Space",
+      "Schwarz Digits"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/eleqtron-3d70"
+  },
+  {
+    "name": "mimic",
+    "domain": "mimicrobotics.com",
+    "url": "https://www.mimicrobotics.com/",
+    "hq": "Zürich, Zurich, Switzerland",
+    "founded": "2024-04-24",
+    "funding_status": "Seed",
+    "total_funding_usd": 18421651,
+    "last_round": "Seed",
+    "investors": [
+      "Amazon Web Services",
+      "CES",
+      "Elaia",
+      "ESA Business Incubation Centre Switzerland",
+      "Founderful",
+      "Innosuisse",
+      "Speedinvest",
+      "Venture Kick"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/mimic-robotics"
+  },
+  {
+    "name": "nyra health",
+    "domain": "nyra.health",
+    "url": "https://www.nyra.health/en-us",
+    "hq": "Vienna, Wien, Austria",
+    "founded": "2020-06-04",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 28505742,
+    "last_round": "Series A",
+    "investors": [
+      "Armira",
+      "MassMutual Ventures",
+      "Wellington Partners"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/myreha"
+  },
+  {
+    "name": "voize",
+    "domain": "voize.de",
+    "url": "https://www.voize.de",
+    "hq": "Berlin, Berlin, Germany",
+    "founded": "2020-01-01",
+    "funding_status": "Early Stage Venture",
+    "total_funding_usd": 59337218,
+    "last_round": "Series A",
+    "investors": [
+      "Balderton Capital",
+      "HV Capital",
+      "redalpine",
+      "Y Combinator"
+    ],
+    "crunchbase": "https://www.crunchbase.com/organization/voize"
+  }
+]

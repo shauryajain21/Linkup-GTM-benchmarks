@@ -1,0 +1,128 @@
+{
+  "companies": 150,
+  "engines": {
+    "linkup": {
+      "items_per_company_deduped": 71.8,
+      "items_per_company_raw": 80.5,
+      "dup_rate_pct": 11,
+      "entity_relevance": 82.7,
+      "topical_relevance": 79.5,
+      "right_company_pct": 85,
+      "completeness_pct_by_section": {
+        "1_offering": 99,
+        "2_features": 99,
+        "3_case_studies": 63,
+        "4_customers": 65,
+        "5_ctas": 100
+      },
+      "url_backed_pct": 79,
+      "unique_finds": 441,
+      "union_coverage_pct": 45,
+      "source_authority_pct": 40,
+      "aggregator_pct": 3,
+      "p10_relevance": 59.1,
+      "bomb_rate_pct": 1,
+      "source_mix": {
+        "other": 15493,
+        "own_site": 12766,
+        "linkedin": 3595,
+        "aggregator": 880,
+        "crunchbase": 567,
+        "news": 275,
+        "social": 230
+      }
+    },
+    "exa": {
+      "items_per_company_deduped": 71.2,
+      "items_per_company_raw": 85.8,
+      "dup_rate_pct": 17,
+      "entity_relevance": 77.7,
+      "topical_relevance": 73.0,
+      "right_company_pct": 80,
+      "completeness_pct_by_section": {
+        "1_offering": 97,
+        "2_features": 97,
+        "3_case_studies": 55,
+        "4_customers": 56,
+        "5_ctas": 95
+      },
+      "url_backed_pct": 99,
+      "unique_finds": 469,
+      "union_coverage_pct": 47,
+      "source_authority_pct": 60,
+      "aggregator_pct": 3,
+      "p10_relevance": 56.1,
+      "bomb_rate_pct": 3,
+      "source_mix": {
+        "own_site": 8183,
+        "other": 4901,
+        "aggregator": 351,
+        "linkedin": 273,
+        "news": 231,
+        "social": 18,
+        "crunchbase": 10
+      }
+    },
+    "perplexity": {
+      "items_per_company_deduped": 49.6,
+      "items_per_company_raw": 51.2,
+      "dup_rate_pct": 3,
+      "entity_relevance": 75.2,
+      "topical_relevance": 69.6,
+      "right_company_pct": 78,
+      "completeness_pct_by_section": {
+        "1_offering": 99,
+        "2_features": 99,
+        "3_case_studies": 55,
+        "4_customers": 51,
+        "5_ctas": 93
+      },
+      "url_backed_pct": 99,
+      "unique_finds": 357,
+      "union_coverage_pct": 37,
+      "source_authority_pct": 42,
+      "aggregator_pct": 2,
+      "p10_relevance": 51.9,
+      "bomb_rate_pct": 5,
+      "source_mix": {
+        "own_site": 5312,
+        "other": 5297,
+        "linkedin": 1571,
+        "social": 497,
+        "aggregator": 266,
+        "news": 182
+      }
+    },
+    "parallel": {
+      "items_per_company_deduped": 46.4,
+      "items_per_company_raw": 53.2,
+      "dup_rate_pct": 13,
+      "entity_relevance": 75.9,
+      "topical_relevance": 70.6,
+      "right_company_pct": 78,
+      "completeness_pct_by_section": {
+        "1_offering": 99,
+        "2_features": 99,
+        "3_case_studies": 47,
+        "4_customers": 53,
+        "5_ctas": 99
+      },
+      "url_backed_pct": 99,
+      "unique_finds": 246,
+      "union_coverage_pct": 31,
+      "source_authority_pct": 43,
+      "aggregator_pct": 7,
+      "p10_relevance": 55.8,
+      "bomb_rate_pct": 2,
+      "source_mix": {
+        "other": 5939,
+        "own_site": 4743,
+        "aggregator": 946,
+        "crunchbase": 757,
+        "linkedin": 599,
+        "news": 184,
+        "social": 137
+      }
+    }
+  }
+}

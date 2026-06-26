@@ -1,0 +1,103 @@
+#!/usr/bin/env python3
+"""Minimal, consistent charts for the GTM benchmarks README.
+
+One headline metric per signal. Linkup is highlighted; every other engine is
+muted. No gridlines, no spines, no legend — just sorted bars with value labels.
+Run: python3 assets/make_charts.py  ->  assets/*.png
+"""
+import os
+import matplotlib
+
+matplotlib.use("Agg")
+import matplotlib.pyplot as plt
+
+OUT = os.path.dirname(os.path.abspath(__file__))
+
+LINKUP = "#2F6BFF"   # highlight
+MUTED = "#D7DBE2"    # everyone else
+INK = "#0F172A"      # labels / title
+SUBTLE = "#94A3B8"   # subtitle / engine names
+
+plt.rcParams.update({
+    "font.family": "sans-serif",
+    "font.sans-serif": ["Helvetica Neue", "Arial", "DejaVu Sans"],
+    "figure.dpi": 200,
+    "savefig.dpi": 200,
+})
+
+
+def chart(fname, title, subtitle, data, suffix="", decimals=0):
+    """data: list of (engine, value). Sorted desc; Linkup highlighted."""
+    data = sorted(data, key=lambda x: x[1], reverse=True)
+    labels = [d[0] for d in data]
+    vals = [d[1] for d in data]
+    colors = [LINKUP if l.lower() == "linkup" else MUTED for l in labels]
+
+    fig, ax = plt.subplots(figsize=(7.2, 2.9))
+    y = range(len(labels))
+    ax.barh(y, vals, color=colors, height=0.62, zorder=3)
+    ax.invert_yaxis()
+
+    vmax = max(vals)
+    for i, (l, v) in enumerate(zip(labels, vals)):
+        txt = f"{v:.{decimals}f}{suffix}"
+        ax.text(v + vmax * 0.015, i, txt, va="center", ha="left",
+                fontsize=11, fontweight="bold" if l.lower() == "linkup" else "normal",
+                color=INK if l.lower() == "linkup" else SUBTLE)
+
+    ax.set_yticks(list(y))
+    ax.set_yticklabels(labels, fontsize=11,
+                       color=INK)
+    for tick, l in zip(ax.get_yticklabels(), labels):
+        if l.lower() == "linkup":
+            tick.set_fontweight("bold")
+
+    ax.set_xlim(0, vmax * 1.18)
+    ax.set_xticks([])
+    for s in ax.spines.values():
+        s.set_visible(False)
+    ax.tick_params(length=0)
+
+    ax.text(0, 1.30, title, transform=ax.transAxes, fontsize=13.5,
+            fontweight="bold", color=INK, ha="left", va="bottom")
+    ax.text(0, 1.10, subtitle, transform=ax.transAxes, fontsize=10,
+            color=SUBTLE, ha="left", va="bottom")
+
+    fig.subplots_adjust(top=0.74, left=0.16, right=0.97, bottom=0.06)
+    path = os.path.join(OUT, fname)
+    fig.savefig(path, bbox_inches="tight", facecolor="white")
+    plt.close(fig)
+    print("wrote", path)
+
+
+# ---- People ---------------------------------------------------------------
+chart("people_enrichment.png",
+      "Returned the correct person",
+      "From a LinkedIn profile URL  ·  n=500  ·  % correct",
+      [("Linkup", 94), ("Perplexity", 64), ("Parallel", 63), ("Exa", 56)],
+      suffix="%")
+
+chart("people_richness.png",
+      "Pre-meeting brief quality",
+      "Opus-4.8 judge, freshness + specificity + actionability  ·  n=100  ·  / 100",
+      [("Linkup", 64.8), ("Parallel", 59.8), ("Exa", 55.8), ("Perplexity", 53.1)],
+      decimals=1)
+
+chart("people_freshness.png",
+      "Caught a just-happened job change",
+      "People who changed jobs this month  ·  n=57  ·  % caught",
+      [("Linkup", 74), ("Exa", 14), ("Parallel", 11), ("Perplexity", 9)],
+      suffix="%")
+
+# ---- Company --------------------------------------------------------------
+chart("company_research.png",
+      "Actionable signals found per company",
+      "B2B research across 5 GTM sections  ·  n=150  ·  distinct signals",
+      [("Linkup", 71.8), ("Exa", 71.2), ("Perplexity", 49.6), ("Parallel", 46.4)],
+      decimals=1)
+
+chart("company_funding.png",
+      "Funding within \u00b125% of Crunchbase",
+      "Total funding from name + HQ + year  ·  n=93  ·  % within band",
+      [("Linkup", 82), ("Parallel", 74), ("Exa", 71), ("Perplexity", 60)],
+      suffix="%")
