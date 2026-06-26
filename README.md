@@ -148,17 +148,14 @@ The five sections — what each set of queries goes after, and why it's GTM sign
 
 ![Answer quality (on-target sources), by engine](assets/company_research.png)
 
-Only relevance and identification use the judge; quantity, dedup, source-mix, and
-worst-case consistency are computed deterministically from the captured data.
+Only relevance and identification use the judge; everything else (quantity, dedup,
+source-mix, consistency) is computed deterministically from the captured data.
 
 **Where this matters in GTM:**
 
-- **Account research at scale** — more distinct, on-target signal per company, with a
-  steady worst case so the pipeline doesn't break on the hard accounts.
-- **Territory & ICP planning** — building and segmenting target lists from accurate
-  offering, customer, and proof-point data.
-- **Outbound personalization** — pain → solution pairings and case studies a rep can
-  drop straight into a sequence.
+- **Account research at scale** — more on-target signal per company, steady even on hard accounts.
+- **Territory & ICP planning** — segment target lists from accurate offering and customer data.
+- **Outbound personalization** — pain → solution pairings and case studies a rep can drop into a sequence.
 
 ### Signal 2 — Funding retrieval *(n=~90)*
 
