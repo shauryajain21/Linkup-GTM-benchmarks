@@ -9,11 +9,13 @@ and each API's returned value) and writes results/scorecard.csv:
 
 Methodology (matches the published benchmark):
 - error = |api - golden| / golden
-- The scorecard is computed on the subset where the reference engine (Linkup)
-  returned a number, i.e. Linkup-blanks are cut. This is the apples-to-apples set.
-- within_X = share of that subset whose error <= X% (an API blank counts as a miss).
+- The committed golden_set.csv is already the 93-company comparison set: the subset of
+  an original 100 where the reference engine (Linkup) returned a number, with Linkup's
+  7 blanks cut so all four engines are scored on the exact same rows. The --reference
+  flag re-applies that cut and is a no-op on the committed data.
+- within_X = share of the set whose error <= X% (an API blank counts as a miss).
 - median_err = median error over the rows where the API returned a number.
-- coverage = share of the subset where the API returned any number.
+- coverage = share of the set where the API returned any number.
 
 Note: golden_set.csv stores values rounded to whole $M (as in the published run
 table), while the official scorecard (results/scorecard.csv) was scored on the raw

@@ -36,7 +36,7 @@ Two benchmarks, scored across all four engines. Higher is better unless noted.
 
 | Signal               | What it measures                                            | Linkup    | Exa   | Perplexity | Parallel |
 | -------------------- | ---------------------------------------------------------- | --------- | ----- | ---------- | -------- |
-| **Answer quality**   | Share of retrieved sources **on-target** for the company (n=750) | **82.7%** | 77.5% | 74.6%      | 75.6%    |
+| **Answer quality**   | Share of retrieved sources **on-target** for the company (search-only, 100 companies × 5 sections, n=500) | **80.7%** | 76.8% | 73.4%      | 71.0%    |
 | **Funding accuracy** | Total funding within **±25%** of Crunchbase (n=~90)         | **82%**   | 71%   | 60%        | 74%      |
 
 ---
@@ -122,12 +122,16 @@ their current employer — does it report the **new** company or the **stale** o
 Firmographics and research that drive account scoring, prioritization, and outbound.
 Two signals are live; more are in progress.
 
-### Signal 1 — B2B company research *(n=750 — 150 companies × 5 sections)*
+### Signal 1 — B2B company research *(search-only · 100 companies × 5 sections, n=500)*
 
-For 150 real companies, each engine runs five sections of GTM research. The method
-is held identical across engines so the result reflects *retrieval*, not the writer:
+Each engine researches a company with **one search endpoint, no chaining and no
+extract** — the fair single-primitive comparison (Linkup `/v1/search`, Exa `/search`
+with highlights, Perplexity & Parallel Search APIs; Exa uses highlights rather than
+full-page contents, so no engine gets a free extract step). Across 100 companies, the
+pipeline is held identical across engines so the result reflects *retrieval*, not the
+writer:
 
-1. **Retrieve** — each engine runs the section's searches (and scrapes the company page where supported), returning **raw sources only**.
+1. **Search** — each engine runs the section's queries through its single search endpoint, returning snippets only.
 2. **Synthesize** (`claude-sonnet-4-6`) — one shared prompt structures each engine's results, grounded *only* in what it returned.
 3. **Judge** (`claude-opus-4-8`) — scores each section against the company's **verified identity** for right-company, on-target sources, and answering the ask.
 
@@ -135,23 +139,24 @@ The five sections — what each set of queries goes after, and why it's GTM sign
 
 | Section             | What the queries target                                   | Why it matters                                            |
 | ------------------- | --------------------------------------------------------- | --------------------------------------------------------- |
-| **Offering**        | homepage + *"what does {company} do / product"*           | the core pitch: what they sell and to whom                |
+| **Offering**        | *"what does {company} do / product"*                      | the core pitch: what they sell and to whom                |
 | **Pain → solution** | *features / benefits* + *pain point / problem / solution* | maps buyer problems to the product angle a rep leads with |
 | **Case studies**    | *case study / success story / ROI / metrics*              | proof points: customer + key result                       |
 | **Customers**       | *customer / client / "trusted by" / partnership*          | named logos and partners for account mapping              |
 | **CTAs**            | site-scoped *book a demo / pricing / sign up*             | the buying motion and conversion signals                  |
 
-| Engine     | Actionable signals / co. | Repeated | Answer quality (on-target) | Answered the ask | Right company | Worst-case (P10) |
-| ---------- | ------------------------ | -------- | -------------------------- | ---------------- | ------------- | ---------------- |
-| **Linkup** | **71.8**                 | 11%      | **82.7%**         | **79.6%**        | **85%**       | **59.1**         |
-| Exa        | 71.1                     | 18%      | 77.5%             | 72.9%            | 80%           | 56.1             |
-| Parallel   | 46.4                     | 13%      | 75.6%             | 70.2%            | 78%           | 55.8             |
-| Perplexity | 49.4                     | 3%       | 74.6%             | 69.1%            | 78%           | 51.0             |
+| Engine     | Answer quality (on-target) | Answered the ask | Right company | Info repeated | Worst-case (P10) |
+| ---------- | -------------------------- | ---------------- | ------------- | ------------- | ---------------- |
+| **Linkup** | **80.7%**                  | **76.8%**        | **83%**       | 5%            | **57.7**         |
+| Exa        | 76.8%                      | 73.0%            | 80%           | 10%           | 56.0             |
+| Perplexity | 73.4%                      | 68.5%            | 76%           | 3%            | 53.7             |
+| Parallel   | 71.0%                      | 66.1%            | 73%           | 12%           | 39.7             |
 
 ![Answer quality (on-target sources), by engine](assets/company_research.png)
 
-Only relevance and identification use the judge; everything else (quantity, dedup,
-source-mix, consistency) is computed deterministically from the captured data.
+Only relevance and identification use the judge; info-repeated and worst-case
+consistency (P10) are computed deterministically. Relevance composite = mean over the
+5 sections of (entity + topical relevance) / 2.
 
 **Where this matters in GTM:**
 
@@ -180,6 +185,44 @@ All four engines are scored on identical rows (the companies where Linkup return
 
 - **ICP fit & account scoring** — funding stage and total raised are core qualification inputs.
 - **Timing & prioritization** — recently funded accounts have budget; the real number (not the ballpark) is what makes it usable in a scoring model.
+
+---
+
+## Cost per request
+
+Every API here is priced **per request** (the search endpoints carry no token bill at
+all). The charts below are list prices for the exact endpoint/config each engine used
+in each benchmark, in a fixed order — **Linkup, Exa, Parallel, Perplexity**.
+
+- **Linkup never charges per source.** It's a flat per-request price — **$0.005** for
+  sourced answers, **$0.006** for structured output — regardless of how many results
+  come back. Exa and Parallel both add a per-result fee for anything above 10 results,
+  so the same query costs *them* more the more it returns.
+- **Same search, ~29% cheaper than Exa.** On the apples-to-apples company-research
+  retrieval, Linkup is **$0.005 vs Exa's $0.007** — and still tops Exa on answer
+  quality *even though Exa also pulled page excerpts/contents*.
+- **Up to ~94% cheaper on extraction.** On URL-anchored profile extraction, Linkup runs
+  **$0.006 vs Exa's ~$0.097** (Exa billed ~100 results per call).
+
+### Company research
+![Cost per search request — company research](assets/pricing_company_research.png)
+
+### Enrichment
+![Cost per request — enrichment](assets/pricing_enrichment.png)
+
+### Richness / meeting briefs
+![Cost per request — richness](assets/pricing_richness.png)
+
+### Freshness
+![Cost per request — freshness](assets/pricing_freshness.png)
+
+### Funding retrieval
+![Cost per request — funding](assets/pricing_funding.png)
+
+> List prices as of June 2026, per request. Perplexity's structured-extract figure is
+> its base-Sonar request fee plus a sub-penny token cost; Exa's enrichment/freshness
+> figure reflects the `numResults=100` config used in those runs; Parallel's funding
+> figure assumes the `lite-fast` processor.
 
 ---
 
@@ -218,19 +261,36 @@ Linkup-GTM-benchmarks/
 ├── README.md                    # this file — the single combined narrative
 ├── people/                      # LinkedIn profile extraction — 3 signals (n=500)
 └── company/
-    ├── research-150/            # B2B company research — 150 companies × 5 sections (n=750)
+    ├── research-100/            # B2B company research — search-only, 100 companies × 5 sections (n=500)
     └── research-evals/          # funding retrieval (+ future company evals)
 ```
 
-Each folder is self-contained — its own data, scripts, and a deep-dive README with
-full reproduction steps. This top-level README is the single source for the combined
-story and results.
+Each folder is self-contained — its own data and scripts. This top-level README is the
+single source for the combined story, results, and reproduction steps.
 
 ```bash
 git clone https://github.com/shauryajain21/Linkup-GTM-benchmarks.git
 cd Linkup-GTM-benchmarks
-# then cd into a bench folder and follow its README to reproduce
+
+# People — enrichment, richness, freshness (cached judge verdicts; no API key needed)
+cd people && pip install -r requirements.txt
+python3 eval.py                 # Pillar 1: enrichment (completeness + correctness)
+python3 eval_meeting_briefs.py  # Pillar 2: brief quality (from cached verdicts)
+python3 eval_freshness.py       # Pillar 3: job-change freshness (from cached verdicts)
+python3 make_charts.py          # charts
+
+# Company research (search-only) — aggregate scorecard is committed
+cd ../company/research-100 && cat results/scorecard.json
+
+# Funding retrieval — scores the committed golden set
+cd ../research-evals/funding-retrieval && pip install -r requirements.txt
+python3 scripts/score.py && python3 scripts/plot_results.py
 ```
+
+To re-run the people evals live (fresh API calls) or re-judge, copy
+`people/.env.example` to `.env`, add keys, and pass `--rejudge`. The company search-only
+scorecard is committed as-is (no re-aggregation script). Scripts carry usage details in
+their module docstrings.
 
 ---
 
@@ -239,8 +299,8 @@ cd Linkup-GTM-benchmarks
 - **Search is non-deterministic.** Re-runs shift a few values; committed numbers are
   one representative run.
 - **Targeted sets where noted.** Some signals use focused subsets by design — e.g. the
-  job-change test is built from people who changed roles that month. Each bench's
-  README documents its exact set and method.
+  job-change test is built from people who changed roles that month. Each bench's exact
+  set and method are documented in this README and in its scripts' docstrings.
 - **Transparent and reproducible.** These are vendor benchmarks built by Linkup; the
   method, data, and scoring are fully open so every result can be independently re-run
   and verified rather than taken on faith.

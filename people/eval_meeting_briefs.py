@@ -30,7 +30,7 @@ Writes:
 Usage:  python3 eval_meeting_briefs.py [--rejudge]
 Requires:  openpyxl   (+ anthropic and ANTHROPIC_API_KEY only when (re)judging)
 """
-import csv, re, json, os, sys
+import csv, re, json, os, sys, random
 from collections import OrderedDict, defaultdict
 from statistics import mean
 
@@ -41,6 +41,19 @@ RAW      = os.path.join(HERE, "results", "brief_judge_raw.json")
 XLSX     = os.path.join(HERE, "results", "meeting_brief_judge.xlsx")
 PROVS    = ["linkup", "exa", "perplexity", "parallel"]
 JUDGE_MODEL = "claude-opus-4-8"
+
+# Blinding: the judge never sees real engine names (brand bias) or a fixed order
+# (position bias). Each person's briefs are shuffled onto neutral labels (engine_A..D),
+# seeded by the person key so the permutation is reproducible, then the verdict is mapped
+# back to real engine names before caching/scoring.
+LABELS = ["engine_A", "engine_B", "engine_C", "engine_D"]
+
+def blind_map(key):
+    """Deterministic per-item permutation. Returns (lab2eng, eng2lab)."""
+    order = list(PROVS)
+    random.Random(f"blind::{key}").shuffle(order)
+    lab2eng = {LABELS[i]: e for i, e in enumerate(order)}
+    return lab2eng, {e: l for l, e in lab2eng.items()}
 
 # ----------------------------------------------------------------------------- helpers
 def norm_url(u):
@@ -88,8 +101,8 @@ SCHEMA = {"type": "object", "properties": {p: {"type": "object", "properties": {
     "overall":       {"type": "integer"},
     "note":          {"type": "string"}},
     "required": ["right_person", "freshness", "specificity", "actionability", "overall", "note"],
-    "additionalProperties": False} for p in PROVS}}
-SCHEMA["required"] = PROVS; SCHEMA["additionalProperties"] = False
+    "additionalProperties": False} for p in LABELS}}
+SCHEMA["required"] = LABELS; SCHEMA["additionalProperties"] = False
 
 SYS = (
  "ROLE. You are a salesperson about to walk into a meeting with the target person in 10 minutes. "
@@ -131,14 +144,19 @@ def run_judge(people, gt):
     print(f"judging: {len(results)} cached, {len(todo)} to run")
 
     def judge(name, u, g, briefs):
+        lab2eng, eng2lab = blind_map(u)  # judge sees engine_A..D in a per-person random order
         payload = {"target": name, "linkedin_url": u,
                    "ground_truth": {"current_company": g.get("current_company"), "current_title": g.get("current_title"),
                                     "headline": g.get("headline"), "location": g.get("location")},
-                   "briefs": briefs}
+                   "briefs": {lab: briefs.get(lab2eng[lab], {}) for lab in LABELS}}
         msg = client.messages.create(model=JUDGE_MODEL, max_tokens=2000, system=SYS,
             messages=[{"role": "user", "content": json.dumps(payload)[:120000] +
                        "\n\nReturn ONLY JSON matching this schema:\n" + json.dumps(SCHEMA)}])
-        return jload(msg.content[0].text)
+        verdict = jload(msg.content[0].text)
+        # de-blind: map engine_A..D back to real engine names for caching + scoring
+        if isinstance(verdict, dict):
+            return {lab2eng[lab]: verdict[lab] for lab in LABELS if lab in verdict}
+        return verdict
 
     async def main():
         loop = asyncio.get_event_loop(); sem = asyncio.Semaphore(8); done = [len(results)]

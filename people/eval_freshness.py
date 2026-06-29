@@ -31,7 +31,7 @@ Writes:
 
 Usage:  python3 eval_freshness.py [--rejudge]
 """
-import csv, re, json, os, sys
+import csv, re, json, os, sys, random
 from collections import OrderedDict, defaultdict
 
 HERE  = os.path.dirname(os.path.abspath(__file__))
@@ -42,6 +42,19 @@ XLSX  = os.path.join(HERE, "results", "freshness_judge.xlsx")
 PROVS = ["linkup", "exa", "perplexity", "parallel"]
 CLASSES = ["FRESH", "STALE", "WRONG_PERSON", "NOT_FOUND"]
 JUDGE_MODEL = "claude-opus-4-8"
+
+# Blinding: the judge must never see real engine names (brand bias) or a fixed order
+# (position bias). For each person we deterministically shuffle the engines onto neutral
+# labels (engine_A..D), seeded by the person key so the permutation is reproducible, then
+# map the verdict back to real engine names before caching/scoring.
+LABELS = ["engine_A", "engine_B", "engine_C", "engine_D"]
+
+def blind_map(key):
+    """Deterministic per-item permutation. Returns (lab2eng, eng2lab)."""
+    order = list(PROVS)
+    random.Random(f"blind::{key}").shuffle(order)
+    lab2eng = {LABELS[i]: e for i, e in enumerate(order)}
+    return lab2eng, {e: l for l, e in lab2eng.items()}
 
 def name_q(q): m = re.search(r"Research ([^(]+)\(", q); return m.group(1).strip() if m else ""
 def jload(s):
@@ -66,8 +79,8 @@ SCHEMA = {"type": "object", "properties": {p: {"type": "object", "properties": {
     "classification": {"type": "string", "enum": CLASSES},
     "detected_change": {"type": "boolean"},
     "note": {"type": "string"}},
-    "required": ["classification", "detected_change", "note"], "additionalProperties": False} for p in PROVS}}
-SCHEMA["required"] = PROVS; SCHEMA["additionalProperties"] = False
+    "required": ["classification", "detected_change", "note"], "additionalProperties": False} for p in LABELS}}
+SCHEMA["required"] = LABELS; SCHEMA["additionalProperties"] = False
 
 SYS = ("You evaluate JOB-CHANGE FRESHNESS. Each target person RECENTLY changed jobs. You are given the "
  "verified ground truth: their NEW current company/title (and when it started) and their PREVIOUS company. "
@@ -95,18 +108,23 @@ def run_judge(people, gt):
     print(f"judging: {len(results)} cached, {len(todo)} to run")
 
     def judge(name, g, resp):
+        lab2eng, eng2lab = blind_map(name)  # judge sees engine_A..D in a per-person random order
         payload = {"person": name,
             "ground_truth": {"new_current_company": g.get("current_company"), "new_current_title": g.get("current_title"),
                              "new_role_start": g.get("current_role_start"),
                              "previous_company": g.get("previous_company") or g.get("snapshot_company"),
                              "previous_title": g.get("previous_title") or g.get("snapshot_title")},
-            "engine_outputs": {p: {k: resp.get(p, {}).get(k) for k in
+            "engine_outputs": {lab: {k: resp.get(lab2eng[lab], {}).get(k) for k in
                 ["found", "current_company", "current_title", "current_start_date",
-                 "previous_company", "job_changed", "change_summary"]} for p in PROVS}}
+                 "previous_company", "job_changed", "change_summary"]} for lab in LABELS}}
         msg = client.messages.create(model=JUDGE_MODEL, max_tokens=1500, system=SYS,
             messages=[{"role": "user", "content": json.dumps(payload, ensure_ascii=False)[:60000] +
                        "\n\nReturn ONLY JSON matching this schema:\n" + json.dumps(SCHEMA)}])
-        return jload(msg.content[0].text)
+        verdict = jload(msg.content[0].text)
+        # de-blind: map engine_A..D back to real engine names for caching + scoring
+        if isinstance(verdict, dict):
+            return {lab2eng[lab]: verdict[lab] for lab in LABELS if lab in verdict}
+        return verdict
 
     async def main():
         loop = asyncio.get_event_loop(); sem = asyncio.Semaphore(8); done = [len(results)]

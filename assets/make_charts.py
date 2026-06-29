@@ -118,8 +118,8 @@ chart("people_freshness.png",
 # ---- Company --------------------------------------------------------------
 chart("company_research.png",
       "Answer quality",
-      "Share of retrieved sources on-target for the company  ·  n=750  ·  %",
-      [("Linkup", 82.7), ("Exa", 77.5), ("Parallel", 75.6), ("Perplexity", 74.6)],
+      "On-target sources  ·  company research, 100 companies \u00d7 5 sections (n=500)  ·  %",
+      [("Linkup", 80.7), ("Exa", 76.8), ("Perplexity", 73.4), ("Parallel", 71.0)],
       suffix="%", decimals=1)
 
 chart("company_funding.png",

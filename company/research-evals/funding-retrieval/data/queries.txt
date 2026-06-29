@@ -1,6 +1,5 @@
 Altano Energy - headquartered in Madrid, Madrid, Spain, founded 2021-05-01. Find this company's total funding raised to date (sum of all rounds) and its latest known valuation, with a source.
 Apricus Generation - headquartered in Boca Raton, Florida, United States, founded 2023-01-01. Find this company's total funding raised to date (sum of all rounds) and its latest known valuation, with a source.
-Aradigm Health - headquartered in Bethesda, Maryland, United States, founded 2024-01-01. Find this company's total funding raised to date (sum of all rounds) and its latest known valuation, with a source.
 Aurascape - headquartered in Santa Clara, California, United States, founded 2024-01-01. Find this company's total funding raised to date (sum of all rounds) and its latest known valuation, with a source.
 Ayan - headquartered in London, England, United Kingdom, founded 2023-09-01. Find this company's total funding raised to date (sum of all rounds) and its latest known valuation, with a source.
 BackOps AI - headquartered in San Francisco, California, United States, founded 2024-01-01. Find this company's total funding raised to date (sum of all rounds) and its latest known valuation, with a source.
@@ -16,7 +15,6 @@ Circuit - headquartered in Austin, Texas, United States, founded 2024-01-01. Fin
 Console - headquartered in San Francisco, California, United States, founded 2024-01-01. Find this company's total funding raised to date (sum of all rounds) and its latest known valuation, with a source.
 Corintis - headquartered in Lausanne, Vaud, Switzerland, founded 2022-01-01. Find this company's total funding raised to date (sum of all rounds) and its latest known valuation, with a source.
 Cosmon - headquartered in San Francisco, California, United States, founded 2025-01-01. Find this company's total funding raised to date (sum of all rounds) and its latest known valuation, with a source.
-Curbline Properties - headquartered in New York, New York, United States, founded 2023-01-01. Find this company's total funding raised to date (sum of all rounds) and its latest known valuation, with a source.
 Daisy - headquartered in Costa Mesa, California, United States, founded 2023-01-01. Find this company's total funding raised to date (sum of all rounds) and its latest known valuation, with a source.
 Datacurve - headquartered in San Francisco, California, United States, founded 2024-01-01. Find this company's total funding raised to date (sum of all rounds) and its latest known valuation, with a source.
 DeepUll - headquartered in Barcelona, Catalonia, Spain, founded 2019-01-01. Find this company's total funding raised to date (sum of all rounds) and its latest known valuation, with a source.
@@ -24,7 +22,6 @@ Dify.AI - headquartered in Sunnyvale, California, United States, founded 2023-03
 Edurino - headquartered in Munich, Bayern, Germany, founded 2021-01-01. Find this company's total funding raised to date (sum of all rounds) and its latest known valuation, with a source.
 Eranovum - headquartered in Madrid, Madrid, Spain, founded 2019-01-01. Find this company's total funding raised to date (sum of all rounds) and its latest known valuation, with a source.
 Eridu - headquartered in Saratoga, California, United States, founded 2024-01-01. Find this company's total funding raised to date (sum of all rounds) and its latest known valuation, with a source.
-Ethos - headquartered in London, England, United Kingdom, founded 2024-01-01. Find this company's total funding raised to date (sum of all rounds) and its latest known valuation, with a source.
 FYLD - headquartered in London, England, United Kingdom, founded 2020-01-01. Find this company's total funding raised to date (sum of all rounds) and its latest known valuation, with a source.
 Fable - headquartered in San Francisco, California, United States, founded 2024-01-01. Find this company's total funding raised to date (sum of all rounds) and its latest known valuation, with a source.
 Finary - headquartered in Paris, Ile-de-France, France, founded 2020-12-01. Find this company's total funding raised to date (sum of all rounds) and its latest known valuation, with a source.
@@ -49,7 +46,6 @@ MagREEsource - headquartered in Grenoble, Rhone-Alpes, France, founded 2020-01-0
 MainFunc - headquartered in Palo Alto, California, United States, founded 2023-01-01. Find this company's total funding raised to date (sum of all rounds) and its latest known valuation, with a source.
 Maki - headquartered in Paris, Ile-de-France, France, founded 2021-01-01. Find this company's total funding raised to date (sum of all rounds) and its latest known valuation, with a source.
 Mercanis - headquartered in Berlin, Berlin, Germany, founded 2020-01-01. Find this company's total funding raised to date (sum of all rounds) and its latest known valuation, with a source.
-MintNeuro - headquartered in London, England, United Kingdom, founded 2022-01-01. Find this company's total funding raised to date (sum of all rounds) and its latest known valuation, with a source.
 Monarch Quantum - headquartered in San Diego, California, United States, founded 2025-01-01. Find this company's total funding raised to date (sum of all rounds) and its latest known valuation, with a source.
 Multifactor - headquartered in San Francisco, California, United States, founded 2025-01-01. Find this company's total funding raised to date (sum of all rounds) and its latest known valuation, with a source.
 Multiverse Computing - headquartered in Donostia-san Sebastián, Pais Vasco, Spain, founded 2019-01-01. Find this company's total funding raised to date (sum of all rounds) and its latest known valuation, with a source.
@@ -83,7 +79,6 @@ Sifflet - headquartered in Paris, Ile-de-France, France, founded 2021-06-01. Fin
 Silverflow - headquartered in Amsterdam, Noord-Holland, The Netherlands, founded 2019-01-01. Find this company's total funding raised to date (sum of all rounds) and its latest known valuation, with a source.
 Slate Medicines - headquartered in Raleigh, North Carolina, United States, founded 2025-01-01. Find this company's total funding raised to date (sum of all rounds) and its latest known valuation, with a source.
 Sparta - headquartered in Geneva, Geneve, Switzerland, founded 2020-01-01. Find this company's total funding raised to date (sum of all rounds) and its latest known valuation, with a source.
-Spiral - headquartered in New York, New York, United States, founded 2023-01-01. Find this company's total funding raised to date (sum of all rounds) and its latest known valuation, with a source.
 Starbridge - headquartered in New York, New York, United States, founded 2023-01-01. Find this company's total funding raised to date (sum of all rounds) and its latest known valuation, with a source.
 Steady Energy - headquartered in Helsinki, Southern Finland, Finland, founded 2023-01-01. Find this company's total funding raised to date (sum of all rounds) and its latest known valuation, with a source.
 Subbyx - headquartered in Milan, Lombardia, Italy, founded 2023-01-01. Find this company's total funding raised to date (sum of all rounds) and its latest known valuation, with a source.
@@ -95,6 +90,4 @@ Variance - headquartered in San Francisco, California, United States, founded 20
 Ventaris Surgical - headquartered in San Carlos, California, United States, founded 2024-01-01. Find this company's total funding raised to date (sum of all rounds) and its latest known valuation, with a source.
 Via Sana - headquartered in Paris, Ile-de-France, France, founded 2020-01-01. Find this company's total funding raised to date (sum of all rounds) and its latest known valuation, with a source.
 Vivici - headquartered in Delft, Zuid-Holland, The Netherlands, founded 2022-01-01. Find this company's total funding raised to date (sum of all rounds) and its latest known valuation, with a source.
-Vultron - headquartered in San Francisco, California, United States, founded 2024-01-01. Find this company's total funding raised to date (sum of all rounds) and its latest known valuation, with a source.
 Warp - headquartered in New York, New York, United States, founded 2023-01-01. Find this company's total funding raised to date (sum of all rounds) and its latest known valuation, with a source.
-terralayr - headquartered in Zug, Zug, Switzerland, founded 2022-12-01. Find this company's total funding raised to date (sum of all rounds) and its latest known valuation, with a source.
