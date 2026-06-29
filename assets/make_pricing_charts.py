@@ -39,9 +39,10 @@ DATA = {
     "Funding":          [0.006, 0.007, 0.005, 0.008],
 }
 M = np.array([DATA[b] for b in BENCHMARKS])
-# vmax tightened to 0.013 so the cheap band (0.005-0.008) gets real green->amber
-# separation; the 20-result spikes (0.015 / 0.017) saturate to deep red.
-VMIN, VMAX = 0.005, 0.013
+# vmax tightened to 0.009 so the cheap band spreads across the scale: $0.005-0.006
+# green (Linkup), $0.007 yellow (Exa), $0.008 amber (Perplexity); the 20-result spikes
+# (0.015 / 0.017) saturate to deep red.
+VMIN, VMAX = 0.005, 0.009
 CMAP = plt.get_cmap("RdYlGn_r")
 
 fig, ax = plt.subplots(figsize=(7.8, 4.8))
@@ -77,13 +78,13 @@ for s in ax.spines.values():
 ax.set_title("Cost per request ($) — greener = cheaper", fontsize=13.5,
              fontweight="bold", color=INK, pad=28, loc="left")
 
-cbar = fig.colorbar(im, ax=ax, fraction=0.046, pad=0.03, ticks=[0.005, 0.009, 0.013])
-cbar.ax.set_yticklabels(["$0.005", "$0.009", "$0.013+"], fontsize=9, color=INK)
+cbar = fig.colorbar(im, ax=ax, fraction=0.046, pad=0.03, ticks=[0.005, 0.007, 0.009])
+cbar.ax.set_yticklabels(["$0.005", "$0.007", "$0.009+"], fontsize=9, color=INK)
 cbar.outline.set_visible(False)
 cbar.ax.tick_params(length=0)
 
 fig.tight_layout()
-path = os.path.join(OUT, "pricing_heatmap.png")
+path = os.path.join(OUT, "pricing.png")
 fig.savefig(path, bbox_inches="tight", facecolor="white")
 plt.close(fig)
 print("wrote", path)

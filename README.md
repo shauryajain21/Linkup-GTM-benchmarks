@@ -193,7 +193,7 @@ All four engines are scored on identical rows (the companies where Linkup return
 Every API here is priced **per request** (the search endpoints carry no token bill).
 The matrix is the full pricing table — **greener = cheaper**.
 
-![Cost per request, by benchmark and engine](assets/pricing_heatmap.png)
+![Cost per request, by benchmark and engine](assets/pricing.png)
 
 - **Linkup is flat — never above $0.006/request**, sourced ($0.005) or structured ($0.006), no matter how many results come back.
 - **Linkup never charges per source.** Exa and Parallel bill **per result above 10**, so they get more expensive the more a query returns.
