@@ -42,21 +42,30 @@ STYLE = {  # color, linewidth, marker size, zorder
     "Perplexity": ("#8B5CF6", 1.8, 5, 3),
 }
 
-fig, ax = plt.subplots(figsize=(8.4, 4.4))
+fig, ax = plt.subplots(figsize=(8.6, 4.8))
 x = range(len(BENCHMARKS))
 for name, vals in SERIES.items():
     color, lw, ms, z = STYLE[name]
     ax.plot(x, vals, color=color, linewidth=lw, marker="o", markersize=ms,
             label=name, zorder=z,
             markeredgecolor="white", markeredgewidth=1.0)
+    # value label at each point (above the marker)
+    for xi, v in zip(x, vals):
+        ax.annotate(f"${v:.3f}", (xi, v), textcoords="offset points",
+                    xytext=(0, 7), ha="center", fontsize=7, color=color, zorder=z + 1)
+
+# Log scale so the $0.005-$0.10 range (a 20x spread) is all visible.
+ax.set_yscale("log")
+ax.set_ylim(0.004, 0.13)
+ticks = [0.005, 0.01, 0.02, 0.05, 0.10]
+ax.set_yticks(ticks)
+ax.set_yticklabels([f"${v:.3f}".rstrip("0").rstrip(".") for v in ticks],
+                   fontsize=10, color=SUBTLE)
+ax.minorticks_off()
 
 ax.set_xticks(list(x))
 ax.set_xticklabels(BENCHMARKS, fontsize=10.5, color=INK)
-ax.set_ylim(0, 0.105)
-ax.set_yticks([0, 0.02, 0.04, 0.06, 0.08, 0.10])
-ax.set_yticklabels([f"${v:.2f}" for v in [0, 0.02, 0.04, 0.06, 0.08, 0.10]],
-                   fontsize=10, color=SUBTLE)
-ax.set_ylabel("Cost per request", fontsize=11, color=INK)
+ax.set_ylabel("Cost per request (log scale)", fontsize=11, color=INK)
 ax.set_title("Cost per request, by benchmark", fontsize=14, fontweight="bold",
              color=INK, pad=12, loc="left")
 
