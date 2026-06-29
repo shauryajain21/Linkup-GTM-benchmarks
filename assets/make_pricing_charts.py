@@ -1,17 +1,17 @@
 #!/usr/bin/env python3
-"""Single pricing line chart for the GTM benchmarks README.
+"""Pricing heatmap for the GTM benchmarks README.
 
-One line per engine across all benchmarks; y-axis is $/request (list prices for the
-exact endpoint/config each engine used). Linkup is highlighted.
+One matrix that captures the whole pricing table: rows = benchmarks, columns = engines,
+each cell is the per-request cost (USD, list prices) shaded pale (cheap) -> red (pricey).
 
-Run: python3 assets/make_pricing_charts.py  ->  assets/pricing_overview.png
+Run: python3 assets/make_pricing_charts.py  ->  assets/pricing_matrix.png
 
 NOTE: Exa enrichment/freshness is normalized to 10 results ($0.007) for an apples-to-apples
 per-request comparison — the source runs used numResults=100. Richness keeps 20 results
-because every engine used 20 there. Parallel funding assumes `lite-fast` ($0.005); `base`
-would be $0.010.
+because every engine used 20. Parallel funding assumes `lite-fast` ($0.005); `base` = $0.010.
 """
 import os
+import numpy as np
 import matplotlib
 
 matplotlib.use("Agg")
@@ -19,7 +19,7 @@ import matplotlib.pyplot as plt
 
 OUT = os.path.dirname(os.path.abspath(__file__))
 INK = "#0F172A"
-SUBTLE = "#94A3B8"
+LINKUP_BLUE = "#2F6BFF"
 
 plt.rcParams.update({
     "font.family": "sans-serif",
@@ -28,54 +28,57 @@ plt.rcParams.update({
     "savefig.dpi": 200,
 })
 
-# Benchmarks (x-axis) and per-request cost (USD) for each engine.
-BENCHMARKS = ["Enrichment", "Richness", "Freshness", "Company\nresearch", "Funding"]
-SERIES = {
-    "Linkup":     [0.006, 0.005, 0.006, 0.005, 0.006],
-    "Exa":        [0.007, 0.017, 0.007, 0.007, 0.007],
-    "Parallel":   [0.005, 0.015, 0.005, 0.005, 0.005],
-    "Perplexity": [0.008, 0.005, 0.008, 0.005, 0.008],
+ENGINES = ["Linkup", "Exa", "Parallel", "Perplexity"]
+BENCHMARKS = ["Enrichment", "Richness", "Freshness", "Company research", "Funding"]
+# rows = benchmarks, cols = engines (in ENGINES order)
+DATA = {
+    "Enrichment":       [0.006, 0.007, 0.005, 0.008],
+    "Richness":         [0.005, 0.017, 0.015, 0.005],
+    "Freshness":        [0.006, 0.007, 0.005, 0.008],
+    "Company research": [0.005, 0.007, 0.005, 0.005],
+    "Funding":          [0.006, 0.007, 0.005, 0.008],
 }
-STYLE = {  # color, linewidth, marker size, zorder
-    "Linkup":     ("#2F6BFF", 3.0, 8, 5),
-    "Exa":        ("#F59E0B", 1.8, 5, 3),
-    "Parallel":   ("#10B981", 1.8, 5, 3),
-    "Perplexity": ("#8B5CF6", 1.8, 5, 3),
-}
+M = np.array([DATA[b] for b in BENCHMARKS])
+VMIN, VMAX = 0.005, 0.017
 
-fig, ax = plt.subplots(figsize=(8.6, 4.8))
-x = range(len(BENCHMARKS))
-for name, vals in SERIES.items():
-    color, lw, ms, z = STYLE[name]
-    ax.plot(x, vals, color=color, linewidth=lw, marker="o", markersize=ms,
-            label=name, zorder=z,
-            markeredgecolor="white", markeredgewidth=1.0)
-    # value label at each point (above the marker)
-    for xi, v in zip(x, vals):
-        ax.annotate(f"${v:.3f}", (xi, v), textcoords="offset points",
-                    xytext=(0, 7), ha="center", fontsize=7, color=color, zorder=z + 1)
+fig, ax = plt.subplots(figsize=(7.8, 4.8))
+im = ax.imshow(M, cmap="YlOrRd", aspect="auto", vmin=VMIN, vmax=VMAX)
 
-ax.set_ylim(0, 0.019)
-ticks = [0, 0.005, 0.010, 0.015]
-ax.set_yticks(ticks)
-ax.set_yticklabels([f"${v:.3f}" for v in ticks], fontsize=10, color=SUBTLE)
+ax.set_xticks(range(len(ENGINES)))
+ax.set_xticklabels(ENGINES, fontsize=11.5, color=INK)
+ax.get_xticklabels()[0].set_fontweight("bold")
+ax.get_xticklabels()[0].set_color(LINKUP_BLUE)
+ax.xaxis.set_ticks_position("top")
+ax.set_yticks(range(len(BENCHMARKS)))
+ax.set_yticklabels(BENCHMARKS, fontsize=10.5, color=INK)
 
-ax.set_xticks(list(x))
-ax.set_xticklabels(BENCHMARKS, fontsize=10.5, color=INK)
-ax.set_ylabel("Cost per request", fontsize=11, color=INK)
-ax.set_title("Cost per request, by benchmark", fontsize=14, fontweight="bold",
-             color=INK, pad=12, loc="left")
+# value in each cell (white text on the dark/red cells, ink on pale cells)
+for i in range(len(BENCHMARKS)):
+    for j in range(len(ENGINES)):
+        v = M[i, j]
+        norm = (v - VMIN) / (VMAX - VMIN)
+        tc = "white" if norm > 0.55 else INK
+        ax.text(j, i, f"${v:.3f}", ha="center", va="center", fontsize=10.5,
+                color=tc, fontweight="bold" if j == 0 else "normal")
 
-ax.grid(axis="y", color="#EEF1F5", zorder=0)
-ax.set_axisbelow(True)
-for s in ("top", "right"):
-    ax.spines[s].set_visible(False)
-ax.tick_params(length=0)
-ax.legend(frameon=False, fontsize=10, loc="upper center", ncol=4,
-          bbox_to_anchor=(0.5, -0.12))
+# white gridlines between cells
+ax.set_xticks(np.arange(-.5, len(ENGINES), 1), minor=True)
+ax.set_yticks(np.arange(-.5, len(BENCHMARKS), 1), minor=True)
+ax.grid(which="minor", color="white", linewidth=3)
+ax.tick_params(which="both", length=0)
+for s in ax.spines.values():
+    s.set_visible(False)
+
+ax.set_title("Cost per request ($) — lower is better", fontsize=13.5,
+             fontweight="bold", color=INK, pad=28, loc="left")
+
+cbar = fig.colorbar(im, ax=ax, fraction=0.046, pad=0.03, ticks=[0.005, 0.01, 0.015])
+cbar.ax.set_yticklabels(["$0.005", "$0.010", "$0.015"], fontsize=9, color=INK)
+cbar.outline.set_visible(False)
+cbar.ax.tick_params(length=0)
 
 fig.tight_layout()
-path = os.path.join(OUT, "cost_per_request.png")
+path = os.path.join(OUT, "pricing_matrix.png")
 fig.savefig(path, bbox_inches="tight", facecolor="white")
 plt.close(fig)
 print("wrote", path)

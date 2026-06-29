@@ -195,7 +195,7 @@ Linkup stays flat and cheap — **$0.005** sourced / **$0.006** structured — a
 charges per source. Exa and Parallel bill **per result above 10**, so their cost climbs
 when a query pulls more (e.g. the 20-result richness task) while Linkup's stays flat.
 
-![Cost per request, by benchmark](assets/cost_per_request.png)
+![Cost per request, by benchmark and engine](assets/pricing_matrix.png)
 
 > List prices, June 2026, per request. Exa's enrichment/freshness is normalized to 10
 > results for an apples-to-apples comparison (those source runs used 100); richness keeps
