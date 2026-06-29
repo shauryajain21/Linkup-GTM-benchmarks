@@ -190,39 +190,15 @@ All four engines are scored on identical rows (the companies where Linkup return
 
 ## Cost per request
 
-Every API here is priced **per request** (the search endpoints carry no token bill at
-all). The charts below are list prices for the exact endpoint/config each engine used
-in each benchmark, in a fixed order — **Linkup, Exa, Parallel, Perplexity**.
+Every API here is priced **per request** (the search endpoints carry no token bill).
+Linkup stays flat and cheap — **$0.005** sourced / **$0.006** structured — and never
+charges per source. Exa is the outlier, spiking on extraction where it bills per result.
 
-- **Linkup never charges per source.** It's a flat per-request price — **$0.005** for
-  sourced answers, **$0.006** for structured output — regardless of how many results
-  come back. Exa and Parallel both add a per-result fee for anything above 10 results,
-  so the same query costs *them* more the more it returns.
-- **Same search, ~29% cheaper than Exa.** On the apples-to-apples company-research
-  retrieval, Linkup is **$0.005 vs Exa's $0.007** — and still tops Exa on answer
-  quality *even though Exa also pulled page excerpts/contents*.
-- **Up to ~94% cheaper on extraction.** On URL-anchored profile extraction, Linkup runs
-  **$0.006 vs Exa's ~$0.097** (Exa billed ~100 results per call).
+![Cost per request, by benchmark](assets/pricing_overview.png)
 
-### Company research
-![Cost per search request — company research](assets/pricing_company_research.png)
-
-### Enrichment
-![Cost per request — enrichment](assets/pricing_enrichment.png)
-
-### Richness / meeting briefs
-![Cost per request — richness](assets/pricing_richness.png)
-
-### Freshness
-![Cost per request — freshness](assets/pricing_freshness.png)
-
-### Funding retrieval
-![Cost per request — funding](assets/pricing_funding.png)
-
-> List prices as of June 2026, per request. Perplexity's structured-extract figure is
-> its base-Sonar request fee plus a sub-penny token cost; Exa's enrichment/freshness
-> figure reflects the `numResults=100` config used in those runs; Parallel's funding
-> figure assumes the `lite-fast` processor.
+> List prices, June 2026, per request. Exa's enrichment/freshness reflects the
+> `numResults=100` config used in those runs; Parallel funding assumes `lite-fast`;
+> Perplexity's structured extract is a base-Sonar request fee plus a sub-penny token cost.
 
 ---
 
