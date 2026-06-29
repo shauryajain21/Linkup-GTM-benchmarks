@@ -194,7 +194,7 @@ Every API here is priced **per request** (the search endpoints carry no token bi
 Linkup stays flat and cheap — **$0.005** sourced / **$0.006** structured — and never
 charges per source. Exa is the outlier, spiking on extraction where it bills per result.
 
-![Cost per request, by benchmark](assets/pricing_overview.png)
+![Cost per request, by benchmark](assets/pricing_per_request.png)
 
 > List prices, June 2026, per request. Exa's enrichment/freshness reflects the
 > `numResults=100` config used in those runs; Parallel funding assumes `lite-fast`;

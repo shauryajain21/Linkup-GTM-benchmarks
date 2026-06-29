@@ -78,7 +78,7 @@ ax.legend(frameon=False, fontsize=10, loc="upper center", ncol=4,
           bbox_to_anchor=(0.5, -0.12))
 
 fig.tight_layout()
-path = os.path.join(OUT, "pricing_overview.png")
+path = os.path.join(OUT, "pricing_per_request.png")
 fig.savefig(path, bbox_inches="tight", facecolor="white")
 plt.close(fig)
 print("wrote", path)
